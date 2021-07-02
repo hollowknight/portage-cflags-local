@@ -1,0 +1,4 @@
+x11-libs/cairo +Wl,--gc-sections +f*-sections
+sys-libs/glibc +Wl,--gc-sections +f*-sections
+sys-fs/aufs-util +f*-sections +Wl,--gc-sections
+dev-lang/nasm +f*-sections +Wl,--gc-sections

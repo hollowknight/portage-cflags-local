@@ -1,0 +1,18 @@
+# reduce latency of random access when scrolling gui viewports
+sys-libs/ncurses C*FLAGS+=-fprefetch-loop-arrays
+x11-libs/gtk+ C*FLAGS+=-fprefetch-loop-arrays
+dev-qt/qtgui C*FLAGS+=-fprefetch-loop-arrays
+dev-qt/qtwidgets C*FLAGS+=-fprefetch-loop-arrays
+
+# reduce latency on random access on data structures
+dev-libs/glib C*FLAGS+=-fprefetch-loop-arrays
+dev-libs/boost C*FLAGS+=-fprefetch-loop-arrays
+sys-libs/libstdc++-v3 C*FLAGS+=-fprefetch-loop-arrays
+dev-qt/qtcore C*FLAGS+=-fprefetch-loop-arrays
+dev-libs/apr C*FLAGS+=-fprefetch-loop-arrays
+dev-libs/isl C*FLAGS+=-fprefetch-loop-arrays
+
+# reduce latency of searching databases
+dev-db/* C*FLAGS+=-fprefetch-loop-arrays
+dev-libs/libxml2 C*FLAGS+=-fprefetch-loop-arrays
+dev-libs/expat C*FLAGS+=-fprefetch-loop-arrays

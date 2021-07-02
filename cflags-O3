@@ -1,0 +1,26 @@
+# crypto libs / apps / hash algorithms and ciphers
+dev-libs/libgcrypt C*FLAGS/=/-O?/-O3
+dev-libs/openssl C*FLAGS/=/-O?/-O3
+dev-libs/nettle C*FLAGS/=/-O?/-O3
+dev-libs/nss C*FLAGS/=/-O?/-O3
+net-wireless/wpa_supplicant C*FLAGS/=/-O?/-O3
+app-crypt/rhash C*FLAGS/=/-O?/-O3
+dev-libs/apr-util C*FLAGS/=/-O?/-O3
+dev-vcs/git C*FLAGS/=/-O?/-O3
+dev-libs/libsodium C*FLAGS/=/-O?/-O3
+# 3d math
+games-engines/* C*FLAGS/=/-O?/-O3
+sci-physics/bullet C*FLAGS/=/-O?/-O3
+# mass data
+sci-libs/fftw C*FLAGS/=/-O?/-O3
+# compression libs
+app-arch/* C*FLAGS/=/-O?/-O3
+dev-libs/lzo C*FLAGS/=/-O?/-O3
+sys-libs/zlib C*FLAGS/=/-O?/-O3
+# media libs
+media-libs/* C*FLAGS/=/-O?/-O3
+media-video/* C*FLAGS/=/-O?/-O3
+media-gfx/* C*FLAGS/=/-O?/-O3
+media-sound/* C*FLAGS/=/-O?/-O3
+# bitmaps
+x11-libs/pixman C*FLAGS/=/-O?/-O3

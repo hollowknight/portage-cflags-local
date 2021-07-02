@@ -1,0 +1,2 @@
+#dev-lang/python EXTRA_ECONF=--enable-optimizations C*FLAGS+=-Wno-error=coverage-mismatch
+dev-lang/python C*FLAGS+=-Wno-error=coverage-mismatch

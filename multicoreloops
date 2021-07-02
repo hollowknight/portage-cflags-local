@@ -1,0 +1,2 @@
+# bitmaps
+x11-libs/pixman C*FLAGS+=-ftree-parallelize-loops=4

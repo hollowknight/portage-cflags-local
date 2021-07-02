@@ -1,0 +1,11 @@
+sys-devel/gcc +fno-delete-null-pointer-checks +Wno-deprecated*
+sys-block/open-iscsi CFLAGS+=-Wno-error=format-truncation
+net-ftp/lftp *FLAGS-=-ffast-math +*math*
+media-libs/openexr LDFLAGS-=-Wl,--as-needed # NOLDADD=1
+#app-emulation/virtualbox-guest-additions C*FLAGS+=-Wno-incompatible-pointer-types
+dev-libs/re2 +mabm
+app-emulation/virtualbox-guest-additions C*FLAGS+=-Wno-error=implicit-function-declaration
+dev-lang/spidermonkey C*FLAGS+=-fno-strict-aliasing
+=sys-devel/gcc-9.2.0-r2 C*FLAGS+=-fprofile-correction
+media-libs/mesa C*FLAGS+=-Wno-error=format-overflow=
+dev-lang/spidermonkey +Wl,-fuse-ld=gold

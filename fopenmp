@@ -1,0 +1,3 @@
+sys-apps/busybox +fopenmp* LDFLAGS-=-lgomp
+media-libs/mesa +fopenmp* LDFLAGS-=-lgomp
+sys-apps/sandbox +fopenmp* LDFLAGS-=-lgomp

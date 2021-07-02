@@ -1,0 +1,12 @@
+
+sys-libs/db +Wl,-fuse-ld=gold LDFLAGS+=-Wl,-fuse-ld=bfd
+sys-libs/glibc +Wl,-fuse-ld=gold LDFLAGS+=-Wl,-fuse-ld=bfd
+#app-admin/setools +Wl,-fuse-ld=gold LDFLAGS+=-Wl,-fuse-ld=bfd
+sys-apps/attr +Wl,-fuse-ld=gold LDFLAGS+=-Wl,-fuse-ld=bfd
+sys-boot/grub +Wl,-fuse-ld=gold LDFLAGS+=-Wl,-fuse-ld=bfd
+sys-libs/efivar +Wl,-fuse-ld=gold LDFLAGS+=-Wl,-fuse-ld=bfd
+sys-boot/gnu-efi +Wl,-fuse-ld=gold LDFLAGS+=-Wl,-fuse-ld=bfd
+sys-apps/sandbox +Wl,-fuse-ld=gold LDFLAGS+=-Wl,-fuse-ld=bfd
+dev-db/mariadb-connector-c +Wl,-fuse-ld=gold LDFLAGS+=-Wl,-fuse-ld=bfd
+dev-libs/json-glib +Wl,-fuse-ld=gold LDFLAGS+=-Wl,-fuse-ld=bfd
+dev-util/sysprof +Wl,-fuse-ld=gold LDFLAGS+=-Wl,-fuse-ld=bfd

@@ -1,0 +1,1 @@
+dev-lang/rust C*FLAGS+=-Wno-implicit-fallthrough
