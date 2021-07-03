@@ -85,3 +85,5 @@ sys-fs/dmraid +fPIE +pie
 www-client/epifany +fPIE +pie
 www-client/epiphany +fPIE +pie
 x11-wm/mutter +fPIE +pie
+dev-util/spirv-tools +fPIE +pie
+sys-apps/lm-sensors +fPIE +pie
