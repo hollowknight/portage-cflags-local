@@ -87,3 +87,4 @@ www-client/epiphany +fPIE +pie
 x11-wm/mutter +fPIE +pie
 dev-util/spirv-tools +fPIE +pie
 sys-apps/lm-sensors +fPIE +pie
+dev-util/glslang +fPIE +pie
