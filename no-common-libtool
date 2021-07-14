@@ -1,1 +1,1 @@
-net-wireless/bluez +fno-common -fcommon NOCOMMON_OVERRIDE_LIBTOOL=yes
+#net-wireless/bluez +fno-common -fcommon NOCOMMON_OVERRIDE_LIBTOOL=yes
