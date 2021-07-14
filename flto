@@ -27,3 +27,4 @@ dev-db/mariadb-connector-c +flto*
 sys-auth/pam_ldap +flto*
 app-emulation/virtualbox-guest-additions +flto*
 #dev-lang/luajit +flto*
+net-wireless/bluez +flto*
