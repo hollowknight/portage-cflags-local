@@ -90,4 +90,4 @@ sys-apps/lm-sensors +fPIE +pie
 dev-util/glslang +fPIE +pie
 #net-wireless/bluez +fPIE +pie
 gnome-base/gdm +fPIE +pie
-net-mis/remmina +fPIE +pie
+net-misc/remmina +fPIE +pie
