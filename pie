@@ -88,4 +88,4 @@ x11-wm/mutter +fPIE +pie
 dev-util/spirv-tools +fPIE +pie
 sys-apps/lm-sensors +fPIE +pie
 dev-util/glslang +fPIE +pie
-#net-wireless/bluez +fPIE +pie
+dev-util/colm +fPIE +pie
