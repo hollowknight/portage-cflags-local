@@ -1,1 +1,0 @@
-sys-apps/sandbox export FEATURES="-sandbox -usersandbox"
