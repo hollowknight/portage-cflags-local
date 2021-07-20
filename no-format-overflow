@@ -1,0 +1,2 @@
+sys-auth/elogind C*FLAGS+=-Wno-error=format-overflow=
+media-libs/mesa C*FLAGS+=-Wno-error=format-overflow=
