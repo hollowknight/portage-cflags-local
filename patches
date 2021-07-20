@@ -7,5 +7,4 @@ dev-libs/re2 +mabm
 app-emulation/virtualbox-guest-additions C*FLAGS+=-Wno-error=implicit-function-declaration
 dev-lang/spidermonkey C*FLAGS+=-fno-strict-aliasing
 =sys-devel/gcc-9.2.0-r2 C*FLAGS+=-fprofile-correction
-media-libs/mesa C*FLAGS+=-Wno-error=format-overflow=
 dev-lang/spidermonkey +Wl,-fuse-ld=gold
