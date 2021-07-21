@@ -90,3 +90,4 @@ sys-apps/lm-sensors +fPIE +pie
 dev-util/glslang +fPIE +pie
 dev-util/colm +fPIE +pie
 dev-util/ragel +fPIE +pie
+gnome-base/gdm +fPIE +pie
