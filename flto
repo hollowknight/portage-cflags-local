@@ -28,3 +28,4 @@ sys-auth/pam_ldap +flto*
 app-emulation/virtualbox-guest-additions +flto*
 #dev-lang/luajit +flto*
 #net-wireless/bluez +flto*
+x11-themes/adwaita-qt +flto* *FLAGS+=-ffat-lto-objects
