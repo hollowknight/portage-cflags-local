@@ -92,3 +92,4 @@ dev-util/colm +fPIE +pie
 dev-util/ragel +fPIE +pie
 gnome-base/gdm +fPIE +pie
 net-analyzer/rrdtool +fPIE +pie
+net-print/cups-filters +fPIE +pie
