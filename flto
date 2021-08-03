@@ -30,3 +30,4 @@ app-emulation/virtualbox-guest-additions +flto*
 #net-wireless/bluez +flto*
 x11-themes/adwaita-qt +flto* *FLAGS+=-ffat-lto-objects # requires dynamic R_X86_64_PC32 reloc
 x11-themes/QGnomePlatform +flto* *FLAGS+=-ffat-lto-objects # requires dynamic R_X86_64_PC32 reloc
+dev-util/sysprof-capture +flto* # generated with LTO version...

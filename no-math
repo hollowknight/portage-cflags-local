@@ -1,2 +1,3 @@
 sys-libs/db +ffast-math
 dev-db/postgresql +ffast-math
+#dev-libs/gjs +*math*

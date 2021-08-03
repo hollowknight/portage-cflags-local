@@ -23,3 +23,4 @@ sys-fs/encfs +fgraphite* +floop-* +fipa-pta
 www-client/firefox +fgraphite* +floop-* +fipa-pta
 www-client/palemoon +fgraphite* +floop-* +fipa-pta
 sys-apps/sandbox +fgraphite* +floop-* +fipa-pta
+#dev-libs/gjs +fgraphite* +floop-* +fipa-pta

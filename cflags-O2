@@ -40,3 +40,4 @@ www-client/chromium C*FLAGS/=/-O?/-O2
 x11-drivers/xf86-video-intel C*FLAGS/=/-O?/-O2
 x11-libs/gtk+ C*FLAGS/=/-O?/-O2
 x11-plugins/pidgin-encryption C*FLAGS/=/-O?/-O2
+#dev-libs/gjs C*FLAGS/=/-O?/-O2
