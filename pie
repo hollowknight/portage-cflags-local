@@ -95,4 +95,4 @@ net-analyzer/rrdtool +fPIE +pie
 net-print/cups-filters +fPIE +pie
 dev-lang/mujs +fPIE +pie
 x11-misc/colord +fPIE +pie
->=net-analizer/net-snmp-5.9-r3 +fPIE +pie
+>=net-analyzer/net-snmp-5.9-r5 +fPIE +pie
