@@ -94,5 +94,9 @@ gnome-base/gdm +fPIE +pie
 net-analyzer/rrdtool +fPIE +pie
 net-print/cups-filters +fPIE +pie
 dev-lang/mujs +fPIE +pie
+<<<<<<< HEAD
 x11-misc/colord +fPIE +pie
 >=net-analyzer/net-snmp-5.9-r5 +fPIE +pie
+=======
+dev-tcltk/blt +fPIE +pie
+>>>>>>> de7030a (dev-tcltk/blt +fPIE +pie)
