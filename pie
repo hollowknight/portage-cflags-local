@@ -98,3 +98,4 @@ x11-misc/colord +fPIE +pie
 net-analyzer/net-snmp +fPIE +pie
 dev-tcltk/blt +fPIE +pie
 dev-tcltk/tix +fPIE +pie
+sys-cluster/openmpi +fPIE +pie
