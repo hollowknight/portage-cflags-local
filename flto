@@ -18,7 +18,6 @@ media-gfx/splashutils +flto*
 sys-libs/efivar +flto*
 kde-apps/* +flto*
 kde-plasma/* +flto*
-net-libs/nodejs +flto*
 sys-boot/gnu-efi +flto*
 dev-python/numpy +flto*
 dev-java/icedtea-sound +flto*
