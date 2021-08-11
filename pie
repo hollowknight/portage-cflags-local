@@ -100,3 +100,4 @@ dev-tcltk/blt +fPIE +pie
 dev-tcltk/tix +fPIE +pie
 sys-cluster/openmpi +fPIE +pie
 dev-vcs/mercurial +fPIE +pie
+net-misc/freerdp +fPIE +pie
