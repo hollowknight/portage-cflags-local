@@ -9,3 +9,4 @@ dev-db/mariadb-connector-c *FLAGS-="-Wl,-fuse-ld=gold" +fuse-ld=gold LDFLAGS+="-
 dev-libs/json-glib *FLAGS-="-Wl,-fuse-ld=gold" +fuse-ld=gold LDFLAGS+="-fuse-ld=bfd"
 dev-util/sysprof *FLAGS-="-Wl,-fuse-ld=gold" +fuse-ld=gold LDFLAGS+="-fuse-ld=bfd"
 net-libs/nodejs *FLAGS-="-Wl,-fuse-ld=gold" +fuse-ld=gold LDFLAGS+="-fuse-ld=bfd"
+sys-libs/libcap *FLAGS-="-Wl,-fuse-ld=gold" +fuse-ld=gold LDFLAGS+="-fuse-ld=bfd"
