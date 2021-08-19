@@ -103,3 +103,4 @@ dev-vcs/mercurial +fPIE +pie
 net-misc/freerdp +fPIE +pie
 net-misc/remmina +fPIE +pie
 app-arch/gnome-autoar +fPIE +pie
+x11-misc/appmenu-gtk-module +fPIE +pie
