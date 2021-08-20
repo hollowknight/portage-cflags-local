@@ -1,7 +1,3 @@
-# app-admin/setools MAKEOPTS-=-j* MAKEOPTS+=-j1 FEATURES-=ccache
-# media-libs/openexr MAKEOPTS-=-j* MAKEOPTS+=-j1 FEATURES-=ccache
-# gnome-extra/nautilus-sendto MAKEOPTS-=-j* MAKEOPTS+=-j1 FEATURES-=ccache
-# media-sound/pulseaudio MAKEOPTS-=-j* MAKEOPTS+=-j1 FEATURES-=ccache
 media-gfx/shotwell MAKEOPTS-=-j* MAKEOPTS+=-j1 FEATURES-=ccache
 app-crypt/efitools MAKEOPTS-=-j* MAKEOPTS+=-j1
-#games-board/gnome-mines MAKEOPTS/=/-j*/-j1 FEATURES-=ccache
+sys-libs/pam MAKEOPTS/=/-j*/-j1 FEATURES-=ccache

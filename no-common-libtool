@@ -1,1 +1,2 @@
 #net-wireless/bluez +fno-common -fcommon NOCOMMON_OVERRIDE_LIBTOOL=yes
+sys-libs/pam +fno-common -fcommon +Wl,--no-undefined +Wl,--as-needed
