@@ -31,3 +31,4 @@ dev-util/sysprof-capture +flto* # generated with LTO version...
 net-misc/remmina +flto*
 x11-misc/qt5ct +flto*
 net-nds/openldap +flto* # function main: error: undefined reference to '__Version'
+dev-lang/ocaml +flto*
