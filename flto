@@ -33,3 +33,4 @@ x11-misc/qt5ct +flto*
 net-nds/openldap +flto* # function main: error: undefined reference to '__Version'
 dev-lang/ocaml +flto*
 sys-libs/pam +flto*
+sci-libs/lapack +flto*
