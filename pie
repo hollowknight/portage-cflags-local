@@ -105,3 +105,4 @@ net-misc/remmina +fPIE +pie
 app-arch/gnome-autoar +fPIE +pie
 x11-misc/appmenu-gtk-module +fPIE +pie
 net-dialup/rp-pppoe +fPIE +pie
+media-sound/pulseeffects +fPIE +pie
