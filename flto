@@ -34,4 +34,3 @@ net-nds/openldap +flto* # function main: error: undefined reference to '__Versio
 dev-lang/ocaml +flto*
 sys-libs/pam +flto*
 sci-libs/lapack +flto*
-sci-libs/lapack +flto*
