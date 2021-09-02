@@ -108,3 +108,4 @@ net-dialup/rp-pppoe +fPIE +pie
 media-sound/pulseeffects +fPIE +pie
 net-misc/networkmanager +fPIE +pie
 sys-fs/multipath +fPIE +pie
+sys-fs/multipath-tools +fPIE +pie
