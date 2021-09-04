@@ -110,3 +110,4 @@ net-misc/networkmanager +fPIE +pie
 sys-fs/multipath +fPIE +pie
 sys-fs/multipath-tools +fPIE +pie
 net-irc/polari +fPIE +pie
+app-text/editorconfig-core-c +fPIE +pie
