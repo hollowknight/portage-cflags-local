@@ -35,4 +35,7 @@ dev-lang/ocaml +flto*
 sys-libs/pam +flto*
 sci-libs/lapack +flto*
 dev-util/lttng-ust +flto*
+media-libs/gst-plugins-bad +flto* 
+media-libs/gst-plugins-base +flto*
 media-libs/gst-plugins-good +flto*
+media-libs/gst-plugins-ugly +flto*
