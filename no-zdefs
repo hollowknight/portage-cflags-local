@@ -1,1 +1,2 @@
 dev-python/* +Wl,-z,defs
+net-misc/modemmanager +Wl,-z,defs
