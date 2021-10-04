@@ -1,0 +1,1 @@
+#dev-python/cython +fasynchronous-unwind-tables C*FLAGS+=-fno-asynchronous-unwind-tables
