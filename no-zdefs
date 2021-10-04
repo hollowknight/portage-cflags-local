@@ -3,3 +3,4 @@ sys-libs/slang +Wl,-z,defs
 net-misc/modemmanager +Wl,-z,defs
 net-misc/networkmanager +Wl,-z,defs
 dev-libs/libevent +Wl,-z,defs
+net-ftp/lftp +Wl,-z,defs
