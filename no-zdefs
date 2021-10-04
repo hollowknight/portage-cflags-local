@@ -1,3 +1,4 @@
 dev-python/* +Wl,-z,defs
-net-misc/modemmanager +Wl,-z,defs
 sys-libs/slang +Wl,-z,defs
+net-misc/modemmanager +Wl,-z,defs
+net-misc/networkmanager +Wl,-z,defs
