@@ -12,3 +12,4 @@ sys-process/audit +Wl,-z,defs
 sys-libs/libunwind +Wl,-z,defs
 sys-libs/libcxx +Wl,-z,defs
 sys-libs/libcxxabi +Wl,-z,defs
+sys-apps/util-linux +Wl,-z,defs
