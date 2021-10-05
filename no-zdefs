@@ -23,3 +23,7 @@ app-crypt/gpgme +Wl,-z,defs
 media-libs/libcanberra +Wl,-z,defs
 www-apache/mod_dnssd +Wl,-z,defs
 sys-apps/portage +Wl,-z,defs
+sys-libs/talloc +Wl,-z,defs
+sys-libs/ldb +Wl,-z,defs
+sys-libs/tdb +Wl,-z,defs
+sys-libs/tevent +Wl,-z,defs
