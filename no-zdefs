@@ -9,3 +9,4 @@ sys-libs/libselinux +Wl,-z,defs
 sys-libs/libcap-ng +Wl,-z,defs
 dev-libs/libxml2 +Wl,-z,defs
 sys-process/audit +Wl,-z,defs
+sys-libs/libunwind +Wl,-z,defs
