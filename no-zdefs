@@ -17,3 +17,4 @@ sys-libs/libseccomp +Wl,-z,defs
 sys-apps/kmod +Wl,-z,defs
 sys-libs/libsemanage +Wl,-z,defs
 dev-libs/gobject-introspection +Wl,-z,defs
+app-admin/setools +Wl,-z,defs
