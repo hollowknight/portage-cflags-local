@@ -15,3 +15,4 @@ sys-libs/libcxxabi +Wl,-z,defs
 sys-apps/util-linux +Wl,-z,defs
 sys-libs/libseccomp +Wl,-z,defs
 sys-apps/kmod +Wl,-z,defs
+sys-libs/libsemanage +Wl,-z,defs
