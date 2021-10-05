@@ -4,3 +4,4 @@ net-misc/modemmanager +Wl,-z,defs
 net-misc/networkmanager +Wl,-z,defs
 dev-libs/libevent +Wl,-z,defs
 net-ftp/lftp +Wl,-z,defs
+dev-lang/python +Wl,-z,defs
