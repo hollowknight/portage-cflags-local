@@ -11,3 +11,4 @@ dev-libs/libxml2 +Wl,-z,defs
 sys-process/audit +Wl,-z,defs
 sys-libs/libunwind +Wl,-z,defs
 sys-libs/libcxx +Wl,-z,defs
+sys-libs/libcxxabi +Wl,-z,defs
