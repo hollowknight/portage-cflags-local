@@ -28,3 +28,4 @@ sys-libs/ldb +Wl,-z,defs
 sys-libs/tdb +Wl,-z,defs
 sys-libs/tevent +Wl,-z,defs
 dev-lang/rust +Wl,-z,defs
+dev-libs/boost +Wl,-z,defs
