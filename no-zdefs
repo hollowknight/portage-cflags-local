@@ -21,3 +21,4 @@ app-admin/setools +Wl,-z,defs
 www-servers/apache +Wl,-z,defs
 app-crypt/gpgme +Wl,-z,defs
 media-libs/libcanberra +Wl,-z,defs
+www-apache/mod_dnssd +Wl,-z,defs
