@@ -7,3 +7,4 @@ net-ftp/lftp +Wl,-z,defs
 dev-lang/python +Wl,-z,defs
 sys-libs/libselinux +Wl,-z,defs
 sys-libs/libcap-ng +Wl,-z,defs
+dev-libs/libxml2 +Wl,-z,defs
