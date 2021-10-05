@@ -18,3 +18,4 @@ sys-apps/kmod +Wl,-z,defs
 sys-libs/libsemanage +Wl,-z,defs
 dev-libs/gobject-introspection +Wl,-z,defs
 app-admin/setools +Wl,-z,defs
+www-servers/apache +Wl,-z,defs
