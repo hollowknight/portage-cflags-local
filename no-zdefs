@@ -6,3 +6,4 @@ dev-libs/libevent +Wl,-z,defs
 net-ftp/lftp +Wl,-z,defs
 dev-lang/python +Wl,-z,defs
 sys-libs/libselinux +Wl,-z,defs
+sys-libs/libcap-ng +Wl,-z,defs
