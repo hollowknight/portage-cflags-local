@@ -31,3 +31,4 @@ dev-lang/rust +Wl,-z,defs
 dev-libs/boost +Wl,-z,defs
 sys-libs/cracklib +Wl,-z,defs
 dev-libs/libpwquality +Wl,-z,defs
+app-arch/brotli +Wl,-z,defs
