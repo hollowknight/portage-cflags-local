@@ -35,3 +35,4 @@ app-arch/brotli +Wl,-z,defs
 sys-block/parted +Wl,-z,defs
 x11-wm/mutter +Wl,-z,defs
 app-accessibility/brltty +Wl,-z,defs
+x11-misc/colord +Wl,-z,defs
