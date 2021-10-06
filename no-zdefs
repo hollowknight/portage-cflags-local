@@ -33,3 +33,4 @@ sys-libs/cracklib +Wl,-z,defs
 dev-libs/libpwquality +Wl,-z,defs
 app-arch/brotli +Wl,-z,defs
 sys-block/parted +Wl,-z,defs
+x11-wm/mutter +Wl,-z,defs
