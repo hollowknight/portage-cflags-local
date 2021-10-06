@@ -38,3 +38,4 @@ app-accessibility/brltty +Wl,-z,defs
 x11-misc/colord +Wl,-z,defs
 x11-libs/cairo +Wl,-z,defs
 sys-libs/libcap +Wl,-z,defs
+sys-fs/lvm2 +Wl,-z,defs
