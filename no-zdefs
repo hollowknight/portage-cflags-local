@@ -37,3 +37,4 @@ x11-wm/mutter +Wl,-z,defs
 app-accessibility/brltty +Wl,-z,defs
 x11-misc/colord +Wl,-z,defs
 x11-libs/cairo +Wl,-z,defs
+sys-libs/libcap +Wl,-z,defs
