@@ -42,3 +42,4 @@ sys-fs/lvm2 +Wl,-z,defs
 sys-libs/glibc +Wl,-z,defs
 sys-fs/lvm2 +Wl,-z,defs
 sys-devel/gettext +Wl,-z,defs
+sys-devel/gettext +Wl,-z,defs
