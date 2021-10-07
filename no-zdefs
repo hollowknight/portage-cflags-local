@@ -40,3 +40,4 @@ x11-libs/cairo +Wl,-z,defs
 sys-libs/libcap +Wl,-z,defs
 sys-fs/lvm2 +Wl,-z,defs
 sys-libs/glibc +Wl,-z,defs
+sys-fs/lvm2 +Wl,-z,defs
