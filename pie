@@ -115,3 +115,4 @@ app-text/enchant +fPIE +pie
 net-ftp/lftp +pie +fPIE
 app-accessibility/flite +pie +fPIE
 app-accessibility/brltty +pie +fPIE
+x11-misc/lightdm +pie +fPIE
