@@ -44,4 +44,3 @@ sys-devel/gettext +Wl,-z,defs
 *-libs/* +Wl,-z,defs
 x11-drivers/* +Wl,-z,defs
 x11-base/xorg-server +Wl,-z,defs
-#app-crypt/gnupg +Wl,-z,defs
