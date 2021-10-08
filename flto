@@ -39,4 +39,4 @@ media-libs/gst-plugins-bad +flto*
 media-libs/gst-plugins-base +flto*
 media-libs/gst-plugins-good +flto*
 media-libs/gst-plugins-ugly +flto*
-app-crypt/gnupg +flto*
+#app-crypt/gnupg +flto*
