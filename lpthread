@@ -1,1 +1,2 @@
 dev-lang/python LDFLAGS+=-lpthread
+app-crypt/gnupg C*FLAGS+=-pthread
