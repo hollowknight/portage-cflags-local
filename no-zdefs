@@ -45,3 +45,7 @@ sys-devel/gettext +Wl,-z,defs
 x11-drivers/* +Wl,-z,defs
 x11-base/xorg-server +Wl,-z,defs
 sys-devel/gcc +Wl,-z,defs
+app-misc/tracker:0 +Wl,-z,defs
+app-misc/tracker:3 +Wl,-z,defs
+app-misc/tracker-miners:0 +Wl,-z,defs
+app-misc/tracker-miners:3 +Wl,-z,defs
