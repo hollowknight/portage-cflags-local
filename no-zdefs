@@ -50,3 +50,4 @@ app-misc/tracker:3 +Wl,-z,defs
 app-misc/tracker-miners:0 +Wl,-z,defs
 app-misc/tracker-miners:3 +Wl,-z,defs
 sys-fs/udisks +Wl,-z,defs
+perl-core/* +Wl,-z,defs
