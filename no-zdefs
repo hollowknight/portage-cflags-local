@@ -53,3 +53,4 @@ sys-fs/udisks +Wl,-z,defs
 perl-core/* +Wl,-z,defs
 sys-apps/iproute2 +Wl,-z,defs
 dev-perl/* +Wl,-z,defs
+dev-lang/perl +Wl,-z,defs
