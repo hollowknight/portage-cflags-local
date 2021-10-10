@@ -126,3 +126,4 @@ x11-libs/libvdpau +Wl,-z,defs
 x11-misc/colord +Wl,-z,defs
 x11-misc/slim +Wl,-z,defs
 x11-wm/mutter +Wl,-z,defs
+dev-python/sip +Wl,-z,defs
