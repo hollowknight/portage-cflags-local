@@ -1,2 +1,1 @@
 dev-libs/libgcrypt +Wl,--no-undefined
-#net-wireless/bluez +Wl,--no-undefined
