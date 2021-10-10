@@ -129,3 +129,5 @@ x11-wm/mutter +Wl,-z,defs
 dev-python/sip +Wl,-z,defs
 dev-python/PyQt5-sip +Wl,-z,defs
 dev-python/PyQt5 +Wl,-z,defs
+dev-python/kiwisolver +Wl,-z,defs
+dev-python/kiwisolver +Wl,-z,defs
