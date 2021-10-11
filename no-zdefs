@@ -134,3 +134,4 @@ dev-python/bcrypt +Wl,-z,defs
 dev-python/pynacl +Wl,-z,defs
 dev-python/regex +Wl,-z,defs
 dev-python/pypax +Wl,-z,defs
+dev-python/pyxattr +Wl,-z,defs
