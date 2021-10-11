@@ -132,3 +132,4 @@ dev-python/PyQt5 +Wl,-z,defs
 dev-python/kiwisolver +Wl,-z,defs
 dev-python/bcrypt +Wl,-z,defs
 dev-python/pynacl +Wl,-z,defs
+dev-python/regex +Wl,-z,defs
