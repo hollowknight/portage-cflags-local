@@ -170,3 +170,4 @@ dev-python/wxpython +Wl,-z,defs
 dev-python/matplotlib +Wl,-z,defs
 dev-python/bsddb3 +Wl,-z,defs
 dev-python/pycurl +Wl,-z,defs
+dev-python/pygpgme +Wl,-z,defs
