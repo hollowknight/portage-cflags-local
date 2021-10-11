@@ -168,5 +168,4 @@ dev-python/pyrsistent +Wl,-z,defs
 dev-python/setproctitle +Wl,-z,defs
 dev-python/wxpython +Wl,-z,defs
 dev-python/matplotlib +Wl,-z,defs
-dev-python/bsddb +Wl,-z,defs
 dev-python/bsddb3 +Wl,-z,defs
