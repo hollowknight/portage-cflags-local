@@ -162,3 +162,4 @@ x11-libs/libvdpau +Wl,-z,defs
 dev-lang/ruby:2.6 +Wl,-z,defs
 dev-python/numexpr +Wl,-z,defs
 dev-python/pillow +Wl,-z,defs
+dev-python/scipy +Wl,-z,defs
