@@ -160,3 +160,4 @@ sys-libs/slang +Wl,-z,defs
 x11-libs/cairo +Wl,-z,defs
 x11-libs/libvdpau +Wl,-z,defs
 dev-lang/ruby:2.6 +Wl,-z,defs
+dev-python/numexpr +Wl,-z,defs
