@@ -174,3 +174,4 @@ dev-python/pygpgme +Wl,-z,defs
 dev-python/subunit +Wl,-z,defs
 dev-python/typed-ast +Wl,-z,defs
 media-sound/pulseaudio +Wl,-z,defs
+dev-libs/libnl +Wl,-z,defs
