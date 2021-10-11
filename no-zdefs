@@ -164,3 +164,4 @@ dev-python/numexpr +Wl,-z,defs
 dev-python/pillow +Wl,-z,defs
 dev-python/scipy +Wl,-z,defs
 dev-python/pycups +Wl,-z,defs
+dev-python/pyrsistent +Wl,-z,defs
