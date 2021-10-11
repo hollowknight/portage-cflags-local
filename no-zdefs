@@ -167,3 +167,4 @@ dev-python/pycups +Wl,-z,defs
 dev-python/pyrsistent +Wl,-z,defs
 dev-python/setproctitle +Wl,-z,defs
 dev-python/wxpython +Wl,-z,defs
+dev-python/matplotlib +Wl,-z,defs
