@@ -175,3 +175,5 @@ dev-python/subunit +Wl,-z,defs
 dev-python/typed-ast +Wl,-z,defs
 media-sound/pulseaudio +Wl,-z,defs
 dev-libs/libnl +Wl,-z,defs
+net-libs/libtorrent-rasterbar +Wl,-z,defs
+net-libs/libtorrent-rasterbar +Wl,-z,defs
