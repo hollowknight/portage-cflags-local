@@ -178,3 +178,4 @@ dev-libs/libnl +Wl,-z,defs
 net-libs/libtorrent-rasterbar +Wl,-z,defs
 x11-libs/gtkglext +Wl,-z,defs
 dev-lang/ocaml +Wl,-z,defs
+dev-lua/lpeg +Wl,-z,defs
