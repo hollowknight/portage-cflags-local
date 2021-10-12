@@ -185,3 +185,4 @@ dev-lua/LuaBitOp +Wl,-z,defs
 dev-lua/luaexpat +Wl,-z,defs
 dev-lua/luasocket +Wl,-z,defs
 dev-python/pandas +Wl,-z,defs
+net-im/telepathy-mission-control +Wl,-z,defs
