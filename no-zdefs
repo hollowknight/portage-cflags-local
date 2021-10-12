@@ -180,3 +180,4 @@ x11-libs/gtkglext +Wl,-z,defs
 dev-lang/ocaml +Wl,-z,defs
 dev-lua/lpeg +Wl,-z,defs
 dev-python/bottleneck +Wl,-z,defs
+dev-libs/apr-util +Wl,-z,defs
