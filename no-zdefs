@@ -181,3 +181,4 @@ dev-lang/ocaml +Wl,-z,defs
 dev-lua/lpeg +Wl,-z,defs
 dev-python/bottleneck +Wl,-z,defs
 dev-libs/apr-util +Wl,-z,defs
+dev-lua/LuaBitOp +Wl,-z,defs
