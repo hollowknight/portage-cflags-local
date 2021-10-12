@@ -183,3 +183,4 @@ dev-python/bottleneck +Wl,-z,defs
 dev-libs/apr-util +Wl,-z,defs
 dev-lua/LuaBitOp +Wl,-z,defs
 dev-lua/luaexpat +Wl,-z,defs
+dev-lua/luasocket +Wl,-z,defs
