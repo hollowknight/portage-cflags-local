@@ -187,3 +187,4 @@ dev-lua/luasocket +Wl,-z,defs
 dev-python/pandas +Wl,-z,defs
 net-im/telepathy-mission-control +Wl,-z,defs
 net-wireless/bluez +Wl,-z,defs
+net-fs/samba +Wl,-z,defs
