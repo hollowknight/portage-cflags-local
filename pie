@@ -119,3 +119,4 @@ x11-misc/lightdm +pie +fPIE
 net-misc/aria2 +fPIE +pie
 net-ftp/filezilla +fPIE +pie
 net-dns/avahi +fPIE +pie
+dev-lang/orc +fPIE +pie
