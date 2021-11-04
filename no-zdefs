@@ -190,3 +190,4 @@ net-wireless/bluez +Wl,-z,defs
 net-fs/samba +Wl,-z,defs
 dev-python/python-ldap +Wl,-z,defs
 net-nds/openldap +Wl,-z,defs
+media-gfx/imagemagick +Wl,-z,defs
