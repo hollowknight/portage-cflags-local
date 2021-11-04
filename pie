@@ -120,3 +120,4 @@ net-misc/aria2 +fPIE +pie
 net-ftp/filezilla +fPIE +pie
 net-dns/avahi +fPIE +pie
 dev-lang/orc +fPIE +pie
+sys-devel/llvm +fPIE +pie # ld.lld: error: relocation R_X86_64_PC32 cannot be used
