@@ -192,3 +192,4 @@ dev-python/python-ldap +Wl,-z,defs
 net-nds/openldap +Wl,-z,defs
 media-gfx/imagemagick +Wl,-z,defs
 sys-fs/ecryptfs-utils +Wl,-z,defs
+net-fs/nfs-utils +Wl,-z,defs
