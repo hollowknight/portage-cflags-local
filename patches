@@ -11,3 +11,6 @@ dev-lang/spidermonkey +Wl,-fuse-ld=gold +fuse-ld=gold
 sys-devel/gdb *FLAGS-=-ftracer # "-ftracer" and "-O3" gives Error: symbol 'start_amd64_void_call_2_a' is already defined
 media-libs/libvpx +D_FORTIFY_SOURCE*
 sys-libs/llvm-libunwind C*FLAGS+=-Wno-newline-eof
+#media-libs/mesa CXXFLAGS+='-I/usr/lib/llvm/12/include -std=c++14 -stdlib=libc++ -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS'
+#media-libs/mesa C*FLAGS+=-lLLVM-12libcxx
+#media-libs/mesa LDFLAGS+=-L/usr/lib/llvm/12/lib64
