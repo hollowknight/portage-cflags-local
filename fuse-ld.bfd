@@ -10,3 +10,4 @@ dev-libs/json-glib *FLAGS-="-Wl,-fuse-ld=gold" +fuse-ld=gold LDFLAGS+="-fuse-ld=
 dev-util/sysprof *FLAGS-="-Wl,-fuse-ld=gold" +fuse-ld=gold LDFLAGS+="-fuse-ld=bfd"
 net-libs/nodejs *FLAGS-="-Wl,-fuse-ld=gold" +fuse-ld=gold LDFLAGS+="-fuse-ld=bfd"
 sys-libs/libcap *FLAGS-="-Wl,-fuse-ld=gold" +fuse-ld=gold LDFLAGS+="-fuse-ld=bfd"
+dev-lang/spidermonkey *FLAGS-="-Wl,-fuse-ld=gold" +fuse-ld=gold LDFLAGS+="-fuse-ld=bfd"
