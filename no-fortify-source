@@ -1,0 +1,1 @@
+media-libs/libvpx +Wp,-D_FORTIFY_SOURCE=* # error: "_FORTIFY_SOURCE" redefined
