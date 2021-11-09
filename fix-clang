@@ -1,1 +1,1 @@
-media-libs/exempi CXXFLAGS-=-stdlib=libstdc++ # negate lto-overlay patches
+media-libs/exempi +stdlib=libstdc++ # negate lto-overlay patches
