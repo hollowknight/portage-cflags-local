@@ -61,7 +61,6 @@ media-gfx/shotwell +fPIE +pie
 media-libs/openexr +fPIE +pie
 media-sound/gnome-music +fPIE +pie
 media-video/cheese +fPIE +pie
-media-video/pipewire +fPIE +pie
 media-video/totem +fPIE +pie
 net-fs/samba +fPIE +pie
 net-misc/dleyna-server +fPIE +pie
