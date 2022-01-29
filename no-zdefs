@@ -196,3 +196,4 @@ net-fs/nfs-utils +Wl,-z,defs
 sys-apps/calculate-utils +Wl,-z,defs
 media-video/ffmpeg +Wl,-z,defs
 #media-video/pipewire +Wl,-z,defs
+media-libs/gupnp-dlna +Wl,-z,defs
