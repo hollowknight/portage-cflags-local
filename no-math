@@ -2,3 +2,5 @@ sys-libs/db +ffast-math
 dev-db/postgresql +ffast-math
 #dev-libs/gjs +*math*
 media-libs/lsp-plugins +ffast-math +*math*
+dev-lang/duktape +ffast-math +*math*
+sys-auth/polkit +ffast-math +*math*

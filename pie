@@ -124,3 +124,4 @@ app-pda/libplist +fPIE +pie
 sys-auth/polkit +pie +fPIE
 media-gfx/sane-backends +fPIE +pie
 x11-base/xorg-server +fPIE +pie
+sys-apps/systemd-utils +fPIE +pie
