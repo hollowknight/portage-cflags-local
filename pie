@@ -126,3 +126,4 @@ media-gfx/sane-backends +fPIE +pie
 x11-base/xorg-server +fPIE +pie
 sys-apps/systemd-utils +fPIE +pie
 sys-power/upower +fPIE +pie
+app-text/cmark +fPIE +pie
