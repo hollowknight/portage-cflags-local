@@ -1,2 +1,2 @@
-media-gfx/shotwell MAKEOPTS-=-j* MAKEOPTS+=-j1 FEATURES-=ccache
+media-gfx/shotwell MAKEOPTS-=-j* MAKEOPTS+=-j1 FEATURES-=ccache FEATURES+=-ccache
 app-crypt/efitools MAKEOPTS-=-j* MAKEOPTS+=-j1
