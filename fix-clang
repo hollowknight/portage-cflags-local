@@ -1,1 +1,2 @@
 media-libs/exempi +stdlib=libstdc++ # negate lto-overlay patches
+net-libs/webkit-gtk +stdlib=libstdc++
