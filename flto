@@ -39,3 +39,7 @@ media-libs/gst-plugins-bad +flto*
 media-libs/gst-plugins-base +flto*
 media-libs/gst-plugins-good +flto*
 media-libs/gst-plugins-ugly +flto*
+media-libs/gegl +flto*
+media-libs/openexr +flto*
+media-libs/ilmbase +flto*
+dev-libs/imath +flto*
