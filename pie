@@ -128,3 +128,4 @@ sys-apps/systemd-utils +fPIE +pie
 sys-power/upower +fPIE +pie
 app-text/cmark +fPIE +pie
 x11-terms/gnome-terminal +fPIE +pie
+dev-ruby/json +fPIE +pie
