@@ -12,3 +12,4 @@ net-libs/nodejs *FLAGS-="-Wl,-fuse-ld=gold" +fuse-ld=gold LDFLAGS+="-fuse-ld=bfd
 sys-libs/libcap *FLAGS-="-Wl,-fuse-ld=gold" +fuse-ld=gold LDFLAGS+="-fuse-ld=bfd"
 dev-lang/spidermonkey *FLAGS-="-Wl,-fuse-ld=gold" +fuse-ld=gold LDFLAGS+="-fuse-ld=bfd"
 media-libs/libjpeg-turbo *FLAGS-="-Wl,-fuse-ld=gold" +fuse-ld=gold LDFLAGS+="-fuse-ld=bfd"
+app-i18n/im-chooser *FLAGS-=-Wl,-fuse-ld=gold +fuse-ld=gold LDFLAGS+=-fuse-ld=bfd
