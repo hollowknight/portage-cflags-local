@@ -202,4 +202,4 @@ dev-lang/duktape +Wl,-z,defs
 app-i18n/ibus +Wl,-z,defs
 media-libs/gegl +Wl,-z,defs
 media-libs/clutter-gst +Wl,-z,defs
-app-i18n/im-chooser +Wl,-z,defs
+#app-i18n/im-chooser +Wl,-z,defs
