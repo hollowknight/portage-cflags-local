@@ -45,3 +45,5 @@ media-libs/ilmbase +flto*
 dev-libs/imath +flto*
 app-i18n/im-chooser +flto*
 dev-python/protobuf-python +flto*
+net-wireless/lorcon +flto*
+sys-apps/hwloc +flto*
