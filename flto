@@ -44,3 +44,4 @@ media-libs/openexr +flto*
 media-libs/ilmbase +flto*
 dev-libs/imath +flto*
 app-i18n/im-chooser +flto*
+dev-python/protobuf-python +flto*
