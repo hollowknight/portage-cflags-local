@@ -138,7 +138,6 @@ dev-python/pyxattr +Wl,-z,defs
 dev-libs/appstream-glib +Wl,-z,defs
 dev-libs/gobject-introspection +Wl,-z,defs
 dev-libs/libevent +Wl,-z,defs
-dev-libs/libxml2 +Wl,-z,defs
 dev-libs/weston +Wl,-z,defs
 gui-libs/wayfire-plugins-extra +Wl,-z,defs
 media-libs/avidemux-plugins +Wl,-z,defs
