@@ -15,7 +15,6 @@ sys-apps/sandbox +flto*
 app-crypt/efitools +flto*
 dev-util/kbuild +flto*
 media-gfx/splashutils +flto*
-sys-libs/efivar +flto*
 kde-apps/* +flto*
 kde-plasma/* +flto*
 sys-boot/gnu-efi +flto*
@@ -47,3 +46,4 @@ app-i18n/im-chooser +flto*
 dev-python/protobuf-python +flto*
 net-wireless/lorcon +flto*
 sys-apps/hwloc +flto*
+=sys-libs/efivar-38 *FLAGS+="-flto-partition=none"
