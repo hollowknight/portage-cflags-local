@@ -206,3 +206,4 @@ dev-python/protobuf-python +Wl,-z,defs
 net-wireless/lorcon +Wl,-z,defs
 sys-apps/hwloc +Wl,-z,defs
 sys-libs/efivar +Wl,-z,defs
+dev-python/pydantic +Wl,-z,defs
