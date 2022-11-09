@@ -1,2 +1,2 @@
-app-arch/brotli 'export DISTUTILS_USE_SETUPTOOLS=no'
-app-crypt/gpgme export 'DISTUTILS_USE_SETUPTOOLS="no"'
+#app-arch/brotli 'export DISTUTILS_USE_SETUPTOOLS=no'
+#app-crypt/gpgme export 'DISTUTILS_USE_SETUPTOOLS="no"'
