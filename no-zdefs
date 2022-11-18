@@ -207,3 +207,4 @@ net-wireless/lorcon +Wl,-z,defs
 sys-apps/hwloc +Wl,-z,defs
 sys-libs/efivar +Wl,-z,defs
 dev-python/pydantic +Wl,-z,defs
+dev-util/cmake +Wl,-z,defs
