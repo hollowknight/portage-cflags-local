@@ -131,3 +131,4 @@ x11-terms/gnome-terminal +fPIE +pie
 dev-ruby/json +fPIE +pie
 net-wireless/lorcon +fPIE +pie
 gnome-base/libgnomekbd +fPIE +pie
+dev-ruby/racc +fPIE +pie
