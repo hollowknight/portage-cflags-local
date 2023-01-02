@@ -12,3 +12,4 @@ sys-devel/gdb *FLAGS-=-ftracer # "-ftracer" and "-O3" gives Error: symbol 'start
 media-libs/libvpx +D_FORTIFY_SOURCE*
 sys-libs/llvm-libunwind C*FLAGS+=-Wno-newline-eof
 #app-i18n/im-chooser +Wl,--as-needed
+sys-devel/gcc *FLAGS-=-Werror=format-security
