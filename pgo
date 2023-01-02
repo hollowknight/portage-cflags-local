@@ -1,2 +1,2 @@
 #sys-devel/gcc PGO=true
-#dev-lang/python PGO=true export 'SANDBOX_WRITE="${SANDBOX_WRITE}:/var/cache/pgo/${CATEGORY}\:${PF}"'
+#dev-lang/python PGO=true 'export SANDBOX_WRITE="${SANDBOX_WRITE}:/var/cache/pgo/${CATEGORY}\:${PF}"'
