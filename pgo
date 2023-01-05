@@ -1,3 +1,3 @@
 sys-devel/gcc PGO=true
 #sys-devel/binutils PGO=true
-dev-lang/python PGO=true 'export EXTRA_ECONF="--enable-optimizations"'
+dev-lang/python PGO=true
