@@ -1,2 +1,3 @@
-#sys-devel/gcc PGO=true
-#dev-lang/python PGO=true 'export SANDBOX_WRITE="${SANDBOX_WRITE}:/var/cache/pgo/${CATEGORY}\:${PF}"'
+sys-devel/gcc PGO=true
+#sys-devel/binutils PGO=true
+dev-lang/python PGO=true 'export EXTRA_ECONF="--enable-optimizations"'
