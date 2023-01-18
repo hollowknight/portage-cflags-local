@@ -14,4 +14,4 @@ sys-libs/llvm-libunwind C*FLAGS+=-Wno-newline-eof
 #app-i18n/im-chooser +Wl,--as-needed
 sys-devel/gcc *FLAGS-=-Werror=format-security
 app-text/texlive-core 'export ax_cv_c_float_words_bigendian=no'
-x11-libs/libgxim *FLAGS-=${FORMATSECURITY}"
+x11-libs/libgxim *FLAGS-="${FORMATSECURITY}"
