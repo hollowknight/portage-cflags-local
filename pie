@@ -132,3 +132,4 @@ dev-ruby/json +fPIE +pie
 net-wireless/lorcon +fPIE +pie
 gnome-base/libgnomekbd +fPIE +pie
 dev-ruby/racc +fPIE +pie
+dev-lua/lgi +fPIE +pie
