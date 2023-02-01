@@ -170,3 +170,4 @@ sys-libs/efivar +Wl,-z,defs
 dev-util/cmake +Wl,-z,defs
 dev-python/* +Wl,-z,defs
 dev-lua/* +Wl,-z,defs
+dev-libs/elfutils +Wl,-z,defs
