@@ -1,2 +1,2 @@
-media-libs/exempi +stdlib=libstdc++ # negate lto-overlay patches
-net-libs/webkit-gtk +stdlib=libstdc++
+media-libs/exempi C*FLAGS-=-stdlib=libstdc++ # negate lto-overlay patches
+net-libs/webkit-gtk C*FLAGS-=-stdlib=libstdc++
