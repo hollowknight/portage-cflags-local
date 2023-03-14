@@ -48,3 +48,4 @@ net-wireless/lorcon +flto*
 sys-apps/hwloc +flto*
 =sys-libs/efivar-38 *FLAGS+="-flto-partition=none"
 dev-lua/lgi +flto*
+media-libs/vulkan-layers +flto*
