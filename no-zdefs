@@ -172,3 +172,4 @@ dev-python/* +Wl,-z,defs
 dev-lua/* +Wl,-z,defs
 dev-libs/elfutils +Wl,-z,defs
 media-libs/vulkan-layers +Wl,-z,defs
+net-misc/dhcpcd +Wl,-z,defs
