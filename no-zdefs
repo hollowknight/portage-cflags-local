@@ -132,7 +132,6 @@ net-libs/nghttp2 +Wl,-z,defs
 sci-libs/hdf5 +Wl,-z,defs
 sci-libs/suitesparseconfig +Wl,-z,defs
 sys-libs/glibc +Wl,-z,defs
-sys-libs/libcap +Wl,-z,defs
 sys-libs/slang +Wl,-z,defs
 x11-libs/cairo +Wl,-z,defs
 x11-libs/libvdpau +Wl,-z,defs
