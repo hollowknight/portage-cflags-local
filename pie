@@ -135,3 +135,4 @@ dev-ruby/racc +fPIE +pie
 dev-lua/lgi +fPIE +pie
 media-video/ffmpeg-chromium +fPIE +pie
 dev-ruby/rbs +fPIE +pie
+dev-ruby/stringio +fPIE +pie
