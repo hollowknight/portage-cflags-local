@@ -50,3 +50,4 @@ sys-apps/hwloc +flto*
 dev-lua/lgi +flto*
 #media-libs/vulkan-layers +flto*
 #net-misc/dhcpcd +flto*
+dev-util/spirv-llvm-translator +flto*
