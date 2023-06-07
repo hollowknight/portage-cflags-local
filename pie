@@ -128,11 +128,9 @@ sys-apps/systemd-utils +fPIE +pie
 sys-power/upower +fPIE +pie
 app-text/cmark +fPIE +pie
 x11-terms/gnome-terminal +fPIE +pie
-dev-ruby/json +fPIE +pie
 net-wireless/lorcon +fPIE +pie
 gnome-base/libgnomekbd +fPIE +pie
-dev-ruby/racc +fPIE +pie
 dev-lua/lgi +fPIE +pie
 media-video/ffmpeg-chromium +fPIE +pie
-dev-ruby/* +fPIE +pie
 dev-util/spirv-llvm-translator +fPIE +pie
+dev-ruby/* +fPIE +pie
