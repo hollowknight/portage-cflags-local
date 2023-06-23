@@ -1,2 +1,1 @@
 app-crypt/efitools MAKEOPTS-=-j* MAKEOPTS+=-j1
-#media-gfx/shotwell 'export FEATURES="-ccache"'
