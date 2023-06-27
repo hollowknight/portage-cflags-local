@@ -134,3 +134,4 @@ dev-lua/lgi +fPIE +pie
 media-video/ffmpeg-chromium +fPIE +pie
 dev-util/spirv-llvm-translator +fPIE +pie
 dev-ruby/* +fPIE +pie
+dev-util/rizin +fPIE +pie
