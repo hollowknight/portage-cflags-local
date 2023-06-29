@@ -1,8 +1,6 @@
-sys-devel/gcc PGO=true
-sys-devel/binutils PGO=true
-dev-lang/python PGO=true
+sys-devel/gcc PGO=1
+sys-devel/binutils PGO=1
+dev-lang/python PGO=1
 app-text/docbook-xml-dtd LDFLAGS+='-lgcov --coverage'
 gui-libs/gtk LDFLAGS+='-lgcov --coverage'
 sys-libs/glibc LDFLAGS+='-lgcov --coverage'
-#sys-libs/readline LDFLAGS+='-lgcov --coverage'
-sys-devel/gettext FEATURES+=-userpriv
