@@ -58,3 +58,4 @@ net-libs/libmbim +flto*
 net-libs/gnutls +flto*
 media-libs/libglvnd +flto*
 media-libs/lcms +flto*
+sys-libs/gdbm +flto*
