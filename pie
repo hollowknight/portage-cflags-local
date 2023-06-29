@@ -136,4 +136,3 @@ dev-util/spirv-llvm-translator +fPIE +pie
 dev-ruby/* +fPIE +pie
 dev-util/rizin +fPIE +pie
 dev-libs/libpcre +fPIE +pie
-dev-libs/gmp +fPIE +pie
