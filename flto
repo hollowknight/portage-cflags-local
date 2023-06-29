@@ -55,3 +55,4 @@ dev-libs/gmp +flto* *FLAGS+=-ffat-lto-objects # requires dynamic R_X86_64_PC32 r
 dev-libs/libgcrypt +flto*
 net-libs/libndp +flto*
 net-libs/libmbim +flto*
+net0libs/gnutls +flto
