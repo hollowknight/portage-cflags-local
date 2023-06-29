@@ -54,3 +54,4 @@ dev-util/spirv-llvm-translator +flto*
 dev-libs/gmp +flto* *FLAGS+=-ffat-lto-objects # requires dynamic R_X86_64_PC32 reloc
 dev-libs/libgcrypt +flto*
 net-libs/libndp +flto*
+net-libs/libmbim +flto*
