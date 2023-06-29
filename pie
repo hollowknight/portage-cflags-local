@@ -137,3 +137,4 @@ dev-ruby/* +fPIE +pie
 dev-util/rizin +fPIE +pie
 dev-libs/libpcre +fPIE +pie
 net-libs/libmbim +fPIE +pie
+media-libs/flac +fPIE +pie
