@@ -1,3 +1,4 @@
-#sys-devel/gcc PGO=true
-#sys-devel/binutils PGO=true
-#dev-lang/python PGO=true
+sys-devel/gcc PGO=true
+sys-devel/binutils PGO=true
+dev-lang/python PGO=true
+app-text/docbook-xml-dtd LDFLAGS+='-lgcov --coverage'
