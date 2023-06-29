@@ -17,3 +17,4 @@ sys-devel/gcc *FLAGS-=-Wl,-fuse-ld=gold +fuse-ld=gold LDFLAGS+=-fuse-ld=bfd
 dev-libs/gmp *FLAGS-=-Wl,-fuse-ld=gold +fuse-ld=gold LDFLAGS+=-fuse-ld=bfd
 dev-libs/mpfr *FLAGS-=-Wl,-fuse-ld=gold +fuse-ld=gold LDFLAGS+=-fuse-ld=bfd
 media-libs/flac *FLAGS-=-Wl,-fuse-ld=gold +fuse-ld=gold LDFLAGS+=-fuse-ld=bfd
+media-libs/alsa-lib *FLAGS-=-Wl,-fuse-ld=gold +fuse-ld=gold LDFLAGS+=-fuse-ld=bfd
