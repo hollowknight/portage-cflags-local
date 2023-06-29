@@ -56,3 +56,4 @@ dev-libs/libgcrypt +flto*
 net-libs/libndp +flto*
 net-libs/libmbim +flto*
 net-libs/gnutls +flto*
+media-libs/libglvnd +flto*
