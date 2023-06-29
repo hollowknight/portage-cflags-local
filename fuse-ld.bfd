@@ -16,3 +16,4 @@ app-i18n/im-chooser *FLAGS-=-Wl,-fuse-ld=gold +fuse-ld=gold LDFLAGS+=-fuse-ld=bf
 sys-devel/gcc *FLAGS-=-Wl,-fuse-ld=gold +fuse-ld=gold LDFLAGS+=-fuse-ld=bfd
 dev-libs/gmp *FLAGS-=-Wl,-fuse-ld=gold +fuse-ld=gold LDFLAGS+=-fuse-ld=bfd
 dev-libs/mpfr *FLAGS-=-Wl,-fuse-ld=gold +fuse-ld=gold LDFLAGS+=-fuse-ld=bfd
+media-libs/flac *FLAGS-=-Wl,-fuse-ld=gold +fuse-ld=gold LDFLAGS+=-fuse-ld=bfd
