@@ -15,3 +15,4 @@ media-libs/libjpeg-turbo *FLAGS-="-Wl,-fuse-ld=gold" +fuse-ld=gold LDFLAGS+="-fu
 app-i18n/im-chooser *FLAGS-=-Wl,-fuse-ld=gold +fuse-ld=gold LDFLAGS+=-fuse-ld=bfd
 sys-devel/gcc *FLAGS-=-Wl,-fuse-ld=gold +fuse-ld=gold LDFLAGS+=-fuse-ld=bfd
 dev-libs/gmp *FLAGS-=-Wl,-fuse-ld=gold +fuse-ld=gold LDFLAGS+=-fuse-ld=bfd
+dev-libs/mpfr *FLAGS-=-Wl,-fuse-ld=gold +fuse-ld=gold LDFLAGS+=-fuse-ld=bfd
