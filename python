@@ -1,1 +1,1 @@
-dev-lang/python EXTRA_ECONF+='--enable-optimizations --with-lto'
+dev-lang/python EXTRA_ECONF+='--enable-optimizations'
