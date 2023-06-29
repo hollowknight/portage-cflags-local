@@ -4,3 +4,4 @@ dev-lang/python PGO=true
 app-text/docbook-xml-dtd LDFLAGS+='-lgcov --coverage'
 gui-libs/gtk LDFLAGS+='-lgcov --coverage'
 sys-libs/glibc LDFLAGS+='-lgcov --coverage'
+#sys-libs/readline LDFLAGS+='-lgcov --coverage'
