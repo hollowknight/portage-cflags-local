@@ -51,3 +51,4 @@ dev-lua/lgi +flto*
 #media-libs/vulkan-layers +flto*
 #net-misc/dhcpcd +flto*
 dev-util/spirv-llvm-translator +flto*
+dev-libs/gmp +flto* *FLAGS+=-ffat-lto-objects # requires dynamic R_X86_64_PC32 reloc
