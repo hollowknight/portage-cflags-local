@@ -6,6 +6,5 @@ gui-libs/gtk LDFLAGS+='-lgcov --coverage'
 sys-libs/glibc LDFLAGS+='-lgcov --coverage'
 dev-lang/ruby PGO=0 NOPGO=1
 dev-libs/glib PGO=0 NOPGO=1
-#dev-qt/qtcore LDFLAGS+='-lgcov --coverage'
 sys-apps/policycoreutils PGO=1 NOPGO=0 *FLAGS+='-Wno-missing-profile -Wno-error=missing-profile'
-#dev-util/cmake PGO=1 NOPGO=0
+x11-libs/pango PGO=1 NOPGO=0 *FLAGS+='-Wno-missing-profile -Wno-error=missing-profile'
