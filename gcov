@@ -1,2 +1,3 @@
 dev-lang/python LDFLAGS+='-lgcov --coverage'
 dev-libs/glib LDFLAGS+='-lgcov --coverage'
+net-misc/curl *FLAGS+='-lgcov'
