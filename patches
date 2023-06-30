@@ -21,3 +21,4 @@ x11-libs/libgxim *FLAGS-="${FORMATSECURITY}"
 #sys-devel/gettext *FLAGS+=-fPIC
 #sys-libs/readline *FLAGS+=-fPIC
 #dev-lang/python *FLAGS+=-fPIC
+#dev-libs/glib PGO=0 NOPGO=1
