@@ -6,4 +6,4 @@ gui-libs/gtk LDFLAGS+='-lgcov --coverage'
 sys-libs/glibc LDFLAGS+='-lgcov --coverage'
 dev-lang/ruby PGO=0 NOPGO=1
 dev-libs/glib PGO=0 NOPGO=1
-dev-qt/qtcore LDFLAGS+='-lgcov --coverage'
+#dev-qt/qtcore LDFLAGS+='-lgcov --coverage'
