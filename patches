@@ -17,3 +17,4 @@ app-text/texlive-core 'export ax_cv_c_float_words_bigendian=no'
 x11-libs/libgxim *FLAGS-="${FORMATSECURITY}"
 sys-apps/attr *FLAGS+=-fPIC
 sys-apps/acl *FLAGS+=-fPIC
+sys-auth/passwdqc *FLAGS+=-fPIC
