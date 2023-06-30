@@ -4,3 +4,4 @@ net-misc/curl LDFLAGS+=-lgcov
 dev-util/colm LDFLAGS+=-lgcov
 x11-libs/pango LDFLAGS+=-lgcov
 x11-libs/gtk+ LDFLAGS+=-lgcov
+app-i18n/ibus LDFLAGS+=-lgcov
