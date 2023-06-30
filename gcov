@@ -3,3 +3,4 @@ dev-libs/glib LDFLAGS+=-lgcov
 net-misc/curl LDFLAGS+=-lgcov
 dev-util/colm LDFLAGS+=-lgcov
 x11-libs/pango LDFLAGS+=-lgcov
+x11-libs/gtk+ LDFLAGS+=-lgcov
