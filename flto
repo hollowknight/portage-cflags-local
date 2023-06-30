@@ -59,3 +59,4 @@ net-libs/gnutls +flto*
 media-libs/libglvnd +flto*
 media-libs/lcms +flto*
 sys-libs/gdbm +flto*
+sys-libs/readline +flto*
