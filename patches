@@ -19,4 +19,3 @@ sys-apps/attr *FLAGS+=-fPIC
 sys-apps/acl *FLAGS+=-fPIC
 sys-auth/passwdqc *FLAGS+=-fPIC
 sys-devel/gettext *FLAGS+=-fPIC
-sys-devel/gettext *FLAGS+=-fPIC
