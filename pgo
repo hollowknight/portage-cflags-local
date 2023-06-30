@@ -7,4 +7,4 @@ sys-libs/glibc LDFLAGS+='-lgcov --coverage'
 dev-lang/ruby PGO=0 NOPGO=1
 dev-libs/glib PGO=0 NOPGO=1
 sys-apps/policycoreutils PGO=1 NOPGO=0 *FLAGS+='-Wno-missing-profile -Wno-error=missing-profile'
-x11-libs/pango PGO=1 NOPGO=0 *FLAGS+='-Wno-missing-profile -Wno-error=missing-profile'
+#x11-libs/pango PGO=1 NOPGO=0 *FLAGS+='-Wno-missing-profile -Wno-error=missing-profile'
