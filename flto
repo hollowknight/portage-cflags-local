@@ -61,3 +61,4 @@ media-libs/lcms +flto*
 sys-libs/gdbm +flto*
 #sys-libs/readline +flto*
 #app-shells/bash +flto*
+#dev-lang/python +flto*

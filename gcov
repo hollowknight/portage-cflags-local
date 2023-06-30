@@ -1,1 +1,1 @@
-dev-lang/python LDFLAGS+=-lgcov
+dev-lang/python LDFLAGS+='-lgcov --coverage'

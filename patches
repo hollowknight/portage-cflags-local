@@ -20,3 +20,4 @@ x11-libs/libgxim *FLAGS-="${FORMATSECURITY}"
 #sys-auth/passwdqc *FLAGS+=-fPIC
 #sys-devel/gettext *FLAGS+=-fPIC
 #sys-libs/readline *FLAGS+=-fPIC
+#dev-lang/python *FLAGS+=-fPIC
