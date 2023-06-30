@@ -1,1 +1,1 @@
-net-dialup/ppp export FEATURES='-xattr' FEATURES+='-xattr'
+net-dialup/ppp FEATURES+='-xattr -ccache'
