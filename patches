@@ -18,3 +18,4 @@ x11-libs/libgxim *FLAGS-="${FORMATSECURITY}"
 sys-apps/attr *FLAGS+=-fPIC
 sys-apps/acl *FLAGS+=-fPIC
 sys-auth/passwdqc *FLAGS+=-fPIC
+sys-devel/gettext *FLAGS+=-fPIC
