@@ -4,7 +4,6 @@ app-admin/setools +fPIE +pie
 app-arch/brotli +fPIE +pie
 app-arch/file-roller +fPIE +pie
 app-arch/gcab +fPIE +pie
-app-arch/zstd +fPIE +pie
 app-crypt/argon2 +fPIE +pie
 app-crypt/efitools +fPIE +pie
 app-crypt/libsecret +fPIE +pie
