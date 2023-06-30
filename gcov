@@ -1,3 +1,4 @@
 dev-lang/python LDFLAGS+=-lgcov
 dev-libs/glib LDFLAGS+=-lgcov
 net-misc/curl LDFLAGS+=-lgcov
+dev-util/colm *FLAGS+='-lgcov'
