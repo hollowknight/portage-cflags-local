@@ -1,3 +1,4 @@
 dev-qt/qtcore PGO=0 NOPGO=1
 dev-lang/rust PGO=0 NOPGO=1
 dev-util/cmake PGO=0 NOPGO=1
+x11-libs/pango PGO=0 NOPGO=1
