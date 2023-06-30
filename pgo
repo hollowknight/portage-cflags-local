@@ -4,3 +4,4 @@ dev-lang/python PGO=0 NOPGO=1
 app-text/docbook-xml-dtd LDFLAGS+='-lgcov --coverage'
 gui-libs/gtk LDFLAGS+='-lgcov --coverage'
 sys-libs/glibc LDFLAGS+='-lgcov --coverage'
+dev-lang/ruby PGO=0 NOPGO=1
