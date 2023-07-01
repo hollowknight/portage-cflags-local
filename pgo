@@ -1,6 +1,7 @@
 sys-devel/gcc PGO=true NOPGO=false
 sys-devel/binutils PGO=true NOPGO=false
 dev-lang/python PGO=false NOPGO=true
+#dev-lang/python PGO=true NOPGO=false
 #dev-lang/ruby PGO=false NOPGO=true
 #dev-libs/glib PGO=false NOPGO=true
 #sys-apps/policycoreutils PGO=true NOPGO=false *FLAGS+='-Wno-missing-profile -Wno-error=missing-profile'
