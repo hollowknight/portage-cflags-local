@@ -5,3 +5,6 @@ dev-util/colm LDFLAGS+=-lgcov
 x11-libs/pango LDFLAGS+=-lgcov
 x11-libs/gtk+ LDFLAGS+=-lgcov
 app-i18n/ibus LDFLAGS+=-lgcov
+app-text/docbook-xml-dtd LDFLAGS+=-lgcov
+gui-libs/gtk LDFLAGS+=-lgcov
+sys-libs/glibc LDFLAGS+=-lgcov

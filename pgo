@@ -1,9 +1,6 @@
-sys-devel/gcc PGO=true
-sys-devel/binutils PGO=true
-dev-lang/python PGO=false NOPGO=true
-app-text/docbook-xml-dtd LDFLAGS+='-lgcov'
-gui-libs/gtk LDFLAGS+='-lgcov'
-sys-libs/glibc LDFLAGS+='-lgcov'
+sys-devel/gcc PGO=true NOPGO=false
+sys-devel/binutils PGO=true NOPGO=false
+dev-lang/python PGO=true NOPGO=true
 dev-lang/ruby PGO=false NOPGO=true
 dev-libs/glib PGO=false NOPGO=true
 sys-apps/policycoreutils PGO=true NOPGO=false *FLAGS+='-Wno-missing-profile -Wno-error=missing-profile'
