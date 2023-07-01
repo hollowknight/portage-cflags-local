@@ -1,12 +1,12 @@
-sys-devel/gcc PGO=1
-sys-devel/binutils PGO=1
-dev-lang/python PGO=0 NOPGO=1
-app-text/docbook-xml-dtd LDFLAGS+='-lgcov --coverage'
-gui-libs/gtk LDFLAGS+='-lgcov --coverage'
-sys-libs/glibc LDFLAGS+='-lgcov --coverage'
-dev-lang/ruby PGO=0 NOPGO=1
-dev-libs/glib PGO=0 NOPGO=1
-sys-apps/policycoreutils PGO=1 NOPGO=0 *FLAGS+='-Wno-missing-profile -Wno-error=missing-profile'
-#x11-libs/pango PGO=1 NOPGO=0 *FLAGS+='-Wno-missing-profile -Wno-error=missing-profile'
-dev-libs/gobject-introspection PGO=1 NOPGO=0
-dev-libs/gobject-introspection-common PGO=1 NOPGO=0
+sys-devel/gcc PGO=true
+sys-devel/binutils PGO=true
+dev-lang/python PGO=false NOPGO=true
+app-text/docbook-xml-dtd LDFLAGS+='-lgcov'
+gui-libs/gtk LDFLAGS+='-lgcov'
+sys-libs/glibc LDFLAGS+='-lgcov'
+dev-lang/ruby PGO=false NOPGO=true
+dev-libs/glib PGO=false NOPGO=true
+sys-apps/policycoreutils PGO=true NOPGO=false *FLAGS+='-Wno-missing-profile -Wno-error=missing-profile'
+#x11-libs/pango PGO=true NOPGO=false *FLAGS+='-Wno-missing-profile -Wno-error=missing-profile'
+dev-libs/gobject-introspection PGO=true NOPGO=false
+dev-libs/gobject-introspection-common PGO=true NOPGO=false
