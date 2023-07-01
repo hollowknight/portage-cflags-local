@@ -1,4 +1,4 @@
-dev-qt/qtcore PGO=false NOPGO=true
-dev-lang/rust PGO=false NOPGO=true
-dev-util/cmake PGO=false NOPGO=true
-x11-libs/pango PGO=false NOPGO=true
+#dev-qt/qtcore PGO=false NOPGO=true
+#dev-lang/rust PGO=false NOPGO=true
+#dev-util/cmake PGO=false NOPGO=true
+#x11-libs/pango PGO=false NOPGO=true
