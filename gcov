@@ -11,3 +11,4 @@ sys-libs/glibc LDFLAGS+=-lgcov
 dev-libs/mpc LDFLAGS+=-lgcov
 #sys-apps/checkpolicy LDFLAGS+=-lgcov
 #sys-libs/libsepol LDFLAGS+=-lgcov
+media-libs/gstreamer LDFLAGS+=-lgcov
