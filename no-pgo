@@ -2,3 +2,4 @@
 #dev-lang/rust PGO=false NOPGO=true
 #dev-util/cmake PGO=false NOPGO=true
 #x11-libs/pango PGO=false NOPGO=true
+dev-libs/mpfr PGO=false NOPGO=true
