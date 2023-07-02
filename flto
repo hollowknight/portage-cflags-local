@@ -1,6 +1,5 @@
 dev-db/lmdb +flto*
 dev-embedded/libftdi +flto*
-sys-libs/libsepol +flto*
 sys-libs/libselinux +flto*
 sys-apps/busybox +flto*
 sys-auth/elogind +flto*

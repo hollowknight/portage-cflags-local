@@ -9,4 +9,5 @@ app-text/docbook-xml-dtd LDFLAGS+=-lgcov
 gui-libs/gtk LDFLAGS+=-lgcov
 sys-libs/glibc LDFLAGS+=-lgcov
 dev-libs/mpc LDFLAGS+=-lgcov
-sys-apps/checkpolicy LDFLAGS+=-lcov
+#sys-apps/checkpolicy LDFLAGS+=-lgcov
+#sys-libs/libsepol LDFLAGS+=-lgcov
