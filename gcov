@@ -13,3 +13,4 @@ dev-libs/mpc LDFLAGS+=-lgcov
 #sys-libs/libsepol LDFLAGS+=-lgcov
 media-libs/gstreamer LDFLAGS+=-lgcov
 media-libs/gst-plugins-base LDFLAGS+=-lgcov
+gui-libs/wpebackend-fdo LDFLAGS+=-lgcov
