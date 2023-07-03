@@ -14,3 +14,4 @@ dev-libs/mpc LDFLAGS+=-lgcov
 media-libs/gstreamer LDFLAGS+=-lgcov
 media-libs/gst-plugins-base LDFLAGS+=-lgcov
 gui-libs/wpebackend-fdo LDFLAGS+=-lgcov
+dev-qt/qtcore LDFLAGS+=-lgcov
