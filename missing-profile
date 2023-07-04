@@ -1,2 +1,3 @@
 #dev-libs/mpfr LDFLAGS+='-Wno-error=missing-profile -Wno-missing-profile'
 #dev-lang/ruby LDFLAGS+='-Wno-error=missing-profile -Wno-missing-profile'
+dev-libs/glib *FLAGS+='-Wno-missing-profile -Wno-error=missing-profile'
