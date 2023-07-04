@@ -1,0 +1,1 @@
+#sys-devel/llvm *FLAGS-=-Wl,-fuse-ld=gold +fuse-ld=gold *FLAGS-=-Wl,-fuse-ld=bfd +fuse-ld=bfd LDFLAGS+=-Wl,-fuse-ld=lld
