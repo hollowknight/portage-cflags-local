@@ -17,4 +17,5 @@ dev-util/colm LDFLAGS+=-lgcov
 dev-libs/expat LDFLAGS+=-lgcov
 sys-apps/grep LDFLAGS+=-lgcov
 sys-apps/selinux-python LDFLAGS+='-lgcov --coverage'
-sys-libs/readline LDFLAGS+=-lgcov
+#sys-libs/readline LDFLAGS+=-lgcov
+app-arch/unzip LDFLAGS+=-lgcov
