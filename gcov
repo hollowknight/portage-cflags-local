@@ -14,3 +14,5 @@ media-libs/gst-plugins-base LDFLAGS+=-lgcov
 gui-libs/wpebackend-fdo LDFLAGS+=-lgcov
 dev-qt/qtcore LDFLAGS+=-lgcov
 dev-util/colm LDFLAGS+=-lgcov
+dev-libs/expat LDFLAGS+=-lgcov
+sys-apps/grep LDFLAGS+=-lgcov
