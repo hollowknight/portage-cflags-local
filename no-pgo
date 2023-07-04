@@ -7,3 +7,4 @@ sys-devel/clang PGO=false NOPGO=true
 dev-lang/ruby PGO=false NOPGO=true
 dev-ruby/* PGO=false NOPGO=true
 app-shells/bash PGO=false NOPGO=true
+sys-libs/readline PGO=false NOPGO=true
