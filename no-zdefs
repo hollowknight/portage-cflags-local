@@ -150,3 +150,5 @@ x11-libs/libvdpau +Wl,-z,defs
 x11-misc/colord +Wl,-z,defs
 x11-misc/slim +Wl,-z,defs
 x11-wm/mutter +Wl,-z,defs
+dev-lang/ruby +Wl-z,defs
+dev-ruby/* +Wl-z,defs
