@@ -8,3 +8,4 @@ dev-lang/python PGO=false NOPGO=true
 #x11-libs/pango PGO=true NOPGO=false *FLAGS+='-Wno-missing-profile -Wno-error=missing-profile'
 #dev-libs/gobject-introspection PGO=true NOPGO=false
 #dev-libs/gobject-introspection-common PGO=true NOPGO=false
+dev-libs/glib *FLAGS+='-Wno-missing-profile -Wno-error=missing-profile'
