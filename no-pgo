@@ -11,5 +11,8 @@ app-shells/bash PGO=false NOPGO=true
 sys-kernel/gentoo-sources PGO=false NOPGO=true
 sys-kernel/gentoo-kernel-bin PGO=false NOPGO=true
 sys-kernel/linux-headers PGO=false NOPGO=true
-www-client/firefox-bin PGO=false NOPGO=true
 net-wireless/aircrack-ng PGO=false NOPGO=true
+www-client/firefox-bin PGO=false NOPGO=true
+www-client/google-chrome-unstable PGO=false NOPGO=true
+www-client/microsoft-edge-dev PGO=false NOPGO=true
+www-client/opera-developer PGO=false NOPGO=true

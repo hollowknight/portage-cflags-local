@@ -19,3 +19,5 @@ sys-apps/grep LDFLAGS+=-lgcov
 sys-apps/selinux-python LDFLAGS+='-lgcov --coverage'
 #sys-libs/readline LDFLAGS+=-lgcov
 app-arch/unzip LDFLAGS+=-lgcov
+net-misc/rsync LDFLAGS+=-lgcov
+
