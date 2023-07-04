@@ -1,11 +1,6 @@
-#dev-qt/qtcore PGO=false NOPGO=true
-#dev-lang/rust PGO=false NOPGO=true
-#dev-util/cmake PGO=false NOPGO=true
-#x11-libs/pango PGO=false NOPGO=true
 dev-libs/mpfr PGO=false NOPGO=true
 dev-lang/python-exec PGO=false NOPGO=true
 sys-apps/sed PGO=false NOPGO=true
 sys-devel/llvm PGO=false NOPGO=true
 sys-libs/libomp PGO=false NOPGO=true
 sys-devel/clang PGO=false NOPGO=true
-dev-lang/ruby PGO=false NOPGO=true
