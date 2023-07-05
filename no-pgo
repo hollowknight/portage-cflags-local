@@ -17,3 +17,4 @@ www-client/firefox-bin PGO=false NOPGO=true
 www-client/google-chrome-unstable PGO=false NOPGO=true
 www-client/microsoft-edge-dev PGO=false NOPGO=true
 www-client/opera-developer PGO=false NOPGO=true
+sys-libs/zlib PGO=false NOPGO=true
