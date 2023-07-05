@@ -20,4 +20,3 @@
 #sys-libs/readline LDFLAGS+=-lgcov
 #app-arch/unzip LDFLAGS+=-lgcov
 #net-misc/rsync LDFLAGS+=-lgcov
-#
