@@ -1,4 +1,5 @@
 dev-libs/mpfr PGO=false NOPGO=true
+dev-libs/isl PGO=false NOPGO=true
 dev-lang/python-exec PGO=false NOPGO=true
 sys-apps/sed PGO=false NOPGO=true
 sys-devel/llvm PGO=false NOPGO=true
