@@ -1,8 +1,11 @@
-sys-devel/gcc PGO=true NOPGO=false
-sys-devel/binutils PGO=true NOPGO=false
-dev-lang/python PGO=false NOPGO=true
-#dev-lang/python PGO=true NOPGO=false
-#dev-lang/ruby PGO=false NOPGO=true
-#dev-libs/glib PGO=false NOPGO=true
-#dev-libs/gobject-introspection PGO=true NOPGO=false
-#dev-libs/gobject-introspection-common PGO=true NOPGO=false
+*/* PGO=false NOPGO=true LDFLAGS-='${LDGCOVERAGE}'
+app-shells/bash PGO=true NOPGO=false LDFLAGS+='-lgcov --coverage'
+dev-lang/gnat-gpl PGO=true NOPGO=false LDFLAGS+='-lgcov --coverage'
+#dev-lang/python PGO=true NOPGO=false LDFLAGS+='-lgcov --coverage'
+dev-lang/swi-prolog PGO=true NOPGO=false LDFLAGS+='-lgcov --coverage'
+mail-client/thunderbird PGO=true NOPGO=false LDFLAGS+='-lgcov --coverage'
+sys-devel/binutils PGO=true NOPGO=false LDFLAGS+='-lgcov --coverage'
+sys-devel/binutils-hppa64 PGO=true NOPGO=false LDFLAGS+='-lgcov --coverage'
+sys-devel/gcc PGO=true NOPGO=false LDFLAGS+='-lgcov --coverage'
+www-client/chromium PGO=true NOPGO=false LDFLAGS+='-lgcov --coverage'
+www-client/firefox PGO=true NOPGO=false LDFLAGS+='-lgcov --coverage'
