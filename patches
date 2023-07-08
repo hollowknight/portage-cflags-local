@@ -15,3 +15,5 @@ sys-libs/llvm-libunwind C*FLAGS+=-Wno-newline-eof
 sys-devel/gcc *FLAGS-=-Werror=format-security
 app-text/texlive-core 'export ax_cv_c_float_words_bigendian=no'
 x11-libs/libgxim *FLAGS-="${FORMATSECURITY}"
+sys-kernel/gentoo-kernel-bin *FLAGS+='-Wno-sign-compare -Wno-error=sign-compare -Wno-unused-parameter -Wno-error=unused-parameter -Wno-implicit-fallthrough -Wno-error=implicit-fallthrough'
+app-i18n/ibus-unikey *FLAGS+='-Wno-error=unused-parameter -Wno-error=missing-field-initializers -Wno-error=cast-function-type'
