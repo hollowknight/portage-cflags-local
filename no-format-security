@@ -1,1 +1,1 @@
-dev-libs/libcdio *FLAGS-=-Werror=format-security *FLAGS+='-Wno-error=format-security -Wno-format-security'
+dev-libs/libcdio *FLAGS-=-Werror=format-security *FLAGS+='-Wno-format-security -Wno-error=format-security'
