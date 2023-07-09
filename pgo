@@ -1,6 +1,7 @@
 */* PGO=false NOPGO=true *FLAGS-='-Wno-missing-profile -Wno-error=missing-profile' LDFLAGS-='${LDGCOVERAGE}'
 app-shells/bash PGO=false NOPGO=true *FLAGS-='-Wno-missing-profile -Wno-error=missing-profile' LDFLAGS-='${LDGCOVERAGE}'
 dev-lang/gnat-gpl PGO=true NOPGO=false *FLAGS+='-Wno-missing-profile -Wno-error=missing-profile' LDFLAGS+='-lgcov --coverage'
+#dev-lang/python PGO=true NOPGO=false *FLAGS+='-Wno-missing-profile -Wno-error=missing-profile' LDFLAGS+='-lgcov --coverage'
 dev-lang/python PGO=false NOPGO=true *FLAGS-='-Wno-missing-profile -Wno-error=missing-profile' LDFLAGS-='${LDGCOVERAGE}'
 dev-lang/swi-prolog PGO=true NOPGO=false *FLAGS+='-Wno-missing-profile -Wno-error=missing-profile' LDFLAGS+='-lgcov --coverage'
 mail-client/thunderbird PGO=true NOPGO=false *FLAGS+='-Wno-missing-profile -Wno-error=missing-profile' LDFLAGS+='-lgcov --coverage'
