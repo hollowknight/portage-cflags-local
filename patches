@@ -6,7 +6,7 @@ media-libs/openexr LDFLAGS-=-Wl,--as-needed # NOLDADD=1
 dev-libs/re2 +mabm
 app-emulation/virtualbox-guest-additions C*FLAGS+=-Wno-error=implicit-function-declaration
 dev-lang/spidermonkey C*FLAGS+=-fno-strict-aliasing
-=sys-devel/gcc-9.2.0-r2 C*FLAGS+=-fprofile-correction
+#=sys-devel/gcc-9.2.0-r2 C*FLAGS+=-fprofile-correction
 dev-lang/spidermonkey +Wl,-fuse-ld=gold +fuse-ld=gold
 sys-devel/gdb *FLAGS-=-ftracer # "-ftracer" and "-O3" gives Error: symbol 'start_amd64_void_call_2_a' is already defined
 media-libs/libvpx +D_FORTIFY_SOURCE*
