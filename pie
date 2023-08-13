@@ -138,3 +138,4 @@ dev-libs/libpcre +fPIE +pie
 net-libs/libmbim +fPIE +pie
 media-libs/flac +fPIE +pie
 sys-libs/pam +fPIE +pie
+x11-misc/xdotool +fPIE +pie
