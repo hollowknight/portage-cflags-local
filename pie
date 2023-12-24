@@ -57,7 +57,7 @@ media-gfx/gnome-photos +fPIE +pie
 media-gfx/graphite2 +fPIE +pie
 media-gfx/libimagequant +fPIE +pie
 media-gfx/shotwell +fPIE +pie
-media-libs/openexr +fPIE +pie
+#media-libs/openexr +fPIE +pie
 media-sound/gnome-music +fPIE +pie
 media-video/cheese +fPIE +pie
 media-video/totem +fPIE +pie
@@ -141,3 +141,4 @@ sys-libs/pam +fPIE +pie
 x11-misc/xdotool +fPIE +pie
 sys-block/open-isns +fPIE +pie
 sys-block/open-iscsi +fPIE +pie
+#app-admin/rsyslog +fPIE +pie

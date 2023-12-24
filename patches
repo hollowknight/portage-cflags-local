@@ -1,7 +1,7 @@
 sys-devel/gcc +fno-delete-null-pointer-checks +Wno-deprecated*
 sys-block/open-iscsi CFLAGS+=-Wno-error=format-truncation
 net-ftp/lftp *FLAGS-=-ffast-math +*math*
-media-libs/openexr LDFLAGS-=-Wl,--as-needed # NOLDADD=1
+#media-libs/openexr LDFLAGS-=-Wl,--as-needed # NOLDADD=1
 #app-emulation/virtualbox-guest-additions C*FLAGS+=-Wno-incompatible-pointer-types
 dev-libs/re2 +mabm
 app-emulation/virtualbox-guest-additions C*FLAGS+=-Wno-error=implicit-function-declaration
@@ -17,3 +17,4 @@ app-text/texlive-core 'export ax_cv_c_float_words_bigendian=no'
 x11-libs/libgxim *FLAGS-="${FORMATSECURITY}"
 sys-kernel/gentoo-kernel-bin *FLAGS+='-Wno-sign-compare -Wno-error=sign-compare -Wno-unused-parameter -Wno-error=unused-parameter -Wno-implicit-fallthrough -Wno-error=implicit-fallthrough'
 app-i18n/ibus-unikey *FLAGS+='-Wno-unused-parameter -Wno-error=unused-parameter -Wno-missing-field-initializers -Wno-error=missing-field-initializers -Wno-cast-function-type -Wno-error=cast-function-type'
+#app-admin/rsyslog +Wl,--as-needed +Wl,--no-undefined
