@@ -5,3 +5,4 @@ media-libs/lsp-plugins +ffast-math +*math*
 dev-lang/duktape +ffast-math +*math*
 sys-auth/polkit +ffast-math +*math*
 sys-apps/systemd-utils +ffast-math +*math*
+media-libs/rnnoise +ffast-math +*math*
