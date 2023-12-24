@@ -12,7 +12,7 @@ sys-devel/gdb *FLAGS-=-ftracer # "-ftracer" and "-O3" gives Error: symbol 'start
 media-libs/libvpx +D_FORTIFY_SOURCE*
 sys-libs/llvm-libunwind C*FLAGS+=-Wno-newline-eof
 #app-i18n/im-chooser +Wl,--as-needed
-sys-devel/gcc *FLAGS-=-Werror=format-security
+#sys-devel/gcc *FLAGS-=-Werror=format-security
 app-text/texlive-core 'export ax_cv_c_float_words_bigendian=no'
 x11-libs/libgxim *FLAGS-="${FORMATSECURITY}"
 sys-kernel/gentoo-kernel-bin *FLAGS+='-Wno-sign-compare -Wno-error=sign-compare -Wno-unused-parameter -Wno-error=unused-parameter -Wno-implicit-fallthrough -Wno-error=implicit-fallthrough'

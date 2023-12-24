@@ -1,1 +1,3 @@
 dev-libs/libcdio *FLAGS-=-Werror=format-security *FLAGS+='-Wno-format-security -Wno-error=format-security'
+sys-devel/gcc *FLAGS-=-Werror=format-security *FLAGS+='-Wno-format-security -Wno-error=format-security'
+sys-fs/dmraid *FLAGS-=-Werror=format-security *FLAGS+='-Wno-format-security -Wno-error=format-security'
