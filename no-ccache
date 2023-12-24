@@ -1,0 +1,2 @@
+net-im/telegram-desktop FEATURES+='-ccache'
+media-libs/tg_out FEATURES+='-ccache'
