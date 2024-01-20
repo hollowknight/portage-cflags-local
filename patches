@@ -18,3 +18,4 @@ x11-libs/libgxim *FLAGS-="${FORMATSECURITY}"
 sys-kernel/gentoo-kernel-bin *FLAGS+='-Wno-sign-compare -Wno-error=sign-compare -Wno-unused-parameter -Wno-error=unused-parameter -Wno-implicit-fallthrough -Wno-error=implicit-fallthrough'
 app-i18n/ibus-unikey *FLAGS+='-Wno-unused-parameter -Wno-error=unused-parameter -Wno-missing-field-initializers -Wno-error=missing-field-initializers -Wno-cast-function-type -Wno-error=cast-function-type'
 #app-admin/rsyslog +Wl,--as-needed +Wl,--no-undefined
+sys-apps/busybox C*FLAGS/=/-O?/-Oz
