@@ -61,3 +61,4 @@ sys-libs/gdbm +flto*
 #dev-lang/python +flto*
 app-arch/zstd +flto*
 #app-admin/rsyslog +flto*
+net-print/libppd +flto*

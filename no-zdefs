@@ -155,3 +155,4 @@ x11-wm/mutter +Wl,-z,defs
 app-admin/rsyslog +Wl,-z,defs
 dev-libs/libgcrypt +Wl,-z,defs
 media-libs/openexr +Wl,-z,defs
+net-print/libppd +Wl,-z,defs

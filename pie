@@ -142,3 +142,6 @@ x11-misc/xdotool +fPIE +pie
 sys-block/open-isns +fPIE +pie
 sys-block/open-iscsi +fPIE +pie
 #app-admin/rsyslog +fPIE +pie
+net-print/libcupsfilters +fPIE +pie
+#net-print/libppd +fPIE +pie
+net-print/libppd +fPIE +pie
