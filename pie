@@ -145,3 +145,4 @@ sys-block/open-iscsi +fPIE +pie
 net-print/libcupsfilters +fPIE +pie
 #net-print/libppd +fPIE +pie
 net-print/libppd +fPIE +pie
+net-misc/modemmanager +fPIE +pie
