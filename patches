@@ -20,3 +20,4 @@ app-i18n/ibus-unikey *FLAGS+='-Wno-unused-parameter -Wno-error=unused-parameter 
 #app-admin/rsyslog +Wl,--as-needed +Wl,--no-undefined
 # sys-apps/busybox C*FLAGS/=/-O?/-Oz
 # sys-apps/busubox C*FLAGS+="-Wno-sign-compare -Wno-error=sign-compare -Wno-unused-result -Wno-error=unused-result"
+# dev-util/lttng-ust LDFLAGS-=-Wl,--as-needed +Wl,--no-undefined NOLDADD=1 
