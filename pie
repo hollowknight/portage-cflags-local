@@ -147,3 +147,4 @@ net-print/libcupsfilters +fPIE +pie
 net-print/libppd +fPIE +pie
 net-misc/modemmanager +fPIE +pie
 #dev-util/lttng-ust +fPIE +pie
+app-arch/lz4 +fPIE +pie
