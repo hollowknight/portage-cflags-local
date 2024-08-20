@@ -37,7 +37,6 @@ media-libs/gst-plugins-base +flto*
 media-libs/gst-plugins-good +flto*
 media-libs/gst-plugins-ugly +flto*
 media-libs/gegl +flto*
-#media-libs/openexr +flto*
 media-libs/ilmbase +flto*
 dev-libs/imath +flto*
 app-i18n/im-chooser +flto*
@@ -46,20 +45,14 @@ net-wireless/lorcon +flto*
 sys-apps/hwloc +flto*
 =sys-libs/efivar-38 *FLAGS+="-flto-partition=none"
 dev-lua/lgi +flto*
-#media-libs/vulkan-layers +flto*
-#net-misc/dhcpcd +flto*
 dev-util/spirv-llvm-translator +flto*
 dev-libs/gmp +flto* *FLAGS+=-ffat-lto-objects # requires dynamic R_X86_64_PC32 reloc
-#dev-libs/libgcrypt +flto*
 net-libs/libndp +flto*
 net-libs/libmbim +flto*
 net-libs/gnutls +flto*
 media-libs/libglvnd +flto*
 media-libs/lcms +flto*
 sys-libs/gdbm +flto*
-#sys-libs/readline +flto*
-#dev-lang/python +flto*
 app-arch/zstd +flto*
-#app-admin/rsyslog +flto*
 net-print/libppd +flto*
 dev-util/pahole +flto* *FLAGS+=-ffat-lto-objects # requires dynamic R_X86_64_PC32 reloc
