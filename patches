@@ -23,4 +23,4 @@ app-i18n/ibus-unikey *FLAGS+='-Wno-unused-parameter -Wno-error=unused-parameter 
 # dev-util/lttng-ust LDFLAGS-=-Wl,--as-needed +Wl,--no-undefined NOLDADD=1 
 # dev-cpp/abseil-cpp C*FLAGS+=-fclang-abi-compat=17
 # dev-cpp/abseil-cpp C*FLAGS+=-DCMAKE_CXX_STANDARD=17
-#net-dns/bind +fno-common +Wl,--no-undefined C*FLAGS+=-Wl,--as-needed NOLDADD=1
+#net-dns/bind +fno-common -fcommon +Wl,--no-undefined +Wl,--as-needed NOLDADD=1
