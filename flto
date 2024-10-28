@@ -56,3 +56,4 @@ sys-libs/gdbm +flto*
 app-arch/zstd +flto*
 net-print/libppd +flto*
 dev-util/pahole +flto* *FLAGS+=-ffat-lto-objects # requires dynamic R_X86_64_PC32 reloc
+#net-dns/bind +flto*
