@@ -157,3 +157,4 @@ dev-libs/libgcrypt +Wl,-z,defs
 media-libs/openexr +Wl,-z,defs
 net-print/libppd +Wl,-z,defs
 net-dns/bind +Wl,-z,defs
+dev-cpp/abseil-cpp +Wl,-z,defs
