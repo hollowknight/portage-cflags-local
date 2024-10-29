@@ -35,3 +35,4 @@ net-misc/openssh *FLAGS+='-Wno-format-overflow -Wno-maybe-uninitialized -Wno-for
 net-print/cups *FLAGS+='-Wno-missing-field-initializers -Wno-maybe-uninitialized -Wno-cast-function-type'
 dev-libs/elfutils *FLAGS+='-Wno-array-bounds'
 sys-apps/gawk *FLAGS+='-Wno-implicit-fallthrough -Wno-missing-field-initializers -Wno-unused-parameter -Wno-sign-compare'
+sys-apps/portage *FLAGS+='-Wno-unused-parameter -Wno-pointer-sign'
