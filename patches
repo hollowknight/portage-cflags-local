@@ -21,3 +21,13 @@ app-i18n/ibus-unikey *FLAGS+='-Wno-unused-parameter -Wno-error=unused-parameter 
 # sys-apps/busybox C*FLAGS/=/-O?/-Oz
 # dev-util/lttng-ust LDFLAGS-=-Wl,--as-needed +Wl,--no-undefined NOLDADD=1 
 dev-cpp/abseil-cpp +fno-delete-null-pointer-checks
+dev-libs/protobuf +fno-delete-null-pointer-checks *FLAGS+='-Wno-unused-parameter -Wno-attributes -Wno-sign-compare -Wno-missing-field-initializers -Wno-implicit-fallthrough'
+dev-libs/protobuf-c +fno-delete-null-pointer-checks *FLAGS+='-Wno-unused-parameter -Wno-attributes -Wno-sign-compare -Wno-missing-field-initializers -Wno-implicit-fallthrough'
+media-libs/webrtc-audio-processing *FLAGS+='-Wno-unused-parameter -Wno-alloc-size-larger-than'
+dev-dotnet/dotnet-sdk +mabm +fgraphite-identity +floop-nest-optimize +fipa-pta +fdevirtualize-at-ltrans +fira-hoist-pressure +fira-loop-pressure +fbranch-target-load-optimize +fsched2-use-superblocks +Wl,-O1 +Wl,--as-needed +Wl,--sort-common +Wl,--hash-style=gnu +Wl,-z,defs +Wl,-z,relro +Wl,-z,now +Wl,--gc-sections +fuse-linker-plugin +fweb +ftracer +frename-registers *FLAGS='-Wno-unused-command-line-argument -Wno-ignored-optimization-argument -Wno-error=ignored-optimization-argument' 
+media-libs/openh264 *FLAGS+='-Wno-unused-parameter -Wno-ignored-qualifiers -Wno-missing-field-initializers -Wno-implicit-fallthrough -Wno-missing-field-initializers -Wno-type-limits'
+media-libs/openal *FLAGS+='-Wno-c++20-attribute-extensions -Wno-inline'
+media-libs/tg_owt *FLAGS+='-Wno-unused-parameter -Wno-unknown-pragmas -Wno-missing-field-initializers -Wno-deprecated-copy'
+media-libs/libtgvoip *FLAGS+='-Wno-unused-parameter -Wno-missing-field-initializers -Wno-unused-result -Wno-sign-compare'
+net-im/telegram-desktop *FLAGS+='-Wno-dev -Wno-missing-field-initializers -Wno-unused-parameter -Wno-unused-result'
+net-print/libcupsfilters *FLAGS+='-Wno-sized-deallocation -Wno-unused-parameter -Wno-sign-compare -Wno-implicit-fallthrough'
