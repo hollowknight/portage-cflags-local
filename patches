@@ -19,8 +19,5 @@ sys-kernel/gentoo-kernel-bin *FLAGS+='-Wno-sign-compare -Wno-error=sign-compare 
 app-i18n/ibus-unikey *FLAGS+='-Wno-unused-parameter -Wno-error=unused-parameter -Wno-missing-field-initializers -Wno-error=missing-field-initializers -Wno-cast-function-type -Wno-error=cast-function-type'
 #app-admin/rsyslog +Wl,--as-needed +Wl,--no-undefined
 # sys-apps/busybox C*FLAGS/=/-O?/-Oz
-# sys-apps/busubox C*FLAGS+="-Wno-sign-compare -Wno-error=sign-compare -Wno-unused-result -Wno-error=unused-result"
 # dev-util/lttng-ust LDFLAGS-=-Wl,--as-needed +Wl,--no-undefined NOLDADD=1 
-# dev-cpp/abseil-cpp C*FLAGS+=-fclang-abi-compat=17
-# dev-cpp/abseil-cpp C*FLAGS+=-DCMAKE_CXX_STANDARD=17
 dev-cpp/abseil-cpp +fno-delete-null-pointer-checks
