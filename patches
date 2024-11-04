@@ -37,3 +37,4 @@ dev-libs/elfutils *FLAGS+='-Wno-array-bounds'
 sys-apps/gawk *FLAGS+='-Wno-implicit-fallthrough -Wno-missing-field-initializers -Wno-unused-parameter -Wno-sign-compare'
 sys-apps/portage *FLAGS+='-Wno-unused-parameter -Wno-pointer-sign'
 sys-libs/glibc *FLAGS+='-Wno-unused-const-variable -Wno-type-limits -Wno-implicit-fallthrough -Wno-unused-parameter -Wno-unused-const-variable -Wno-sign-compare -Wno-shift-negative-value -Wno-builtin-declaration-mismatch -Wno-yacc -Wnoabsolute-value -Wno-cast-function-type -Wno-clobbered -Wno-expansion-to-defined -Wno-extra -Wno-ignored-qualifiers -Wno-missing-field-initializers -Wno-old-style-declaration'
+www-client/lynx *FLAGS+=-Wno-Wunused-function -Wno-unused-parameter
