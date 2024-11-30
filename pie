@@ -150,3 +150,4 @@ net-misc/modemmanager +fPIE +pie
 app-arch/lz4 +fPIE +pie
 dev-util/maturin +fPIE +pie	# lib64/Scrt1.o: in function `_start': 
 				# undefined reference to `main'
+app-admin/syslog-ng +fPIE +pie
