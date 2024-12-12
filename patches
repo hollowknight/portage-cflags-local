@@ -10,7 +10,7 @@ dev-lang/spidermonkey C*FLAGS+=-fno-strict-aliasing
 dev-lang/spidermonkey +Wl,-fuse-ld=gold +fuse-ld=gold
 sys-devel/gdb *FLAGS-=-ftracer # "-ftracer" and "-O3" gives Error: symbol 'start_amd64_void_call_2_a' is already defined
 media-libs/libvpx +D_FORTIFY_SOURCE*
-sys-libs/llvm-libunwind C*FLAGS+=-Wno-newline-eof
+llvm-runtimes/llvm-libunwind  C*FLAGS+=-Wno-newline-eof
 #app-i18n/im-chooser +Wl,--as-needed
 #sys-devel/gcc *FLAGS-=-Werror=format-security
 app-text/texlive-core 'export ax_cv_c_float_words_bigendian=no'
@@ -39,3 +39,24 @@ sys-apps/portage *FLAGS+='-Wno-unused-parameter -Wno-pointer-sign'
 sys-libs/glibc *FLAGS+='-Wno-unused-const-variable -Wno-type-limits -Wno-implicit-fallthrough -Wno-unused-parameter -Wno-unused-const-variable -Wno-sign-compare -Wno-shift-negative-value -Wno-builtin-declaration-mismatch -Wno-yacc -Wnoabsolute-value -Wno-cast-function-type -Wno-clobbered -Wno-expansion-to-defined -Wno-extra -Wno-ignored-qualifiers -Wno-missing-field-initializers -Wno-old-style-declaration'
 www-client/lynx *FLAGS+='-Wno-Wunused-function -Wno-unused-parameter'
 dev-lang/spidermonkey *FLAGS+='-Wno-error=unused-parameter -Wno-unused-parameter'
+llvm-core/clang +fmerge-all-constants +Wl,--relax # -fmerge-all-constants has always problems with llvm; -Wl,--relax exhausts memory
+llvm-core/llvm +fgraphite* +floop-*
+>=llvm-core/llvm-10.0.0 *FLAGS+='-fno-finite-math-only' # compiles fine but causes clang to fail to emerge with ``undefined reference to `__log10_finite'``
+llvm-core/llvm *FLAGS-="${SEMINTERPOS}"
+llvm-core/llvm *FLAGS-=-flto* # Issue #619 temporarily disabled for now due to build errors
+llvm-core/llvm +fno-common -fcommon +Wl,--no-undefined # NC
+llvm-core/llvm +flto* # PIC
+llvm-core/llvm CONFIG_SITE= +*math* +D*FILE* +fdirectives-only +fmerge-all-constants # -fmerge-all-constants causes clang to segfault on trivial c programs
+llvm-core/llvm +fno-plt # causes presumably runtime segfaults
+llvm-runtimes/compiler-rt USE_NONGNU=1 +fmerge-all-constants
+llvm-runtimes/compiler-rt-sanitizers USE_NONGNU=1 +fmerge-all-constants +frewrite-includes
+llvm-runtimes/compiler-rt +flto*
+llvm-runtimes/compiler-rt-sanitizers *FLAGS+=-Wno-unused-command-line-argument # Test failure
+llvm-runtimes/compiler-rt-sanitizers *FLAGS-="-fno-plt"
+llvm-runtimes/compiler-rt +fno-plt # causes presumably runtime segfaults
+llvm-runtimes/compiler-rt-sanitizers +fno-plt # causes presumably runtime segfaults
+llvm-core/lld +flto* # emerge =sys-libs/compiler-rt-14.0.6 fails without this
+# Fix issues with the gold or lld linker
+llvm-core/lld +fgraphite* +floop-*
+llvm-core/lld +fPIE +pie
+llvm-core/lld +fno-plt # causes runtime segfaults

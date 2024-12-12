@@ -1,1 +1,2 @@
 app-admin/setools +fno-plt +mindirect-branch* +mfunction-return*
+llvm-core/clang +fno-plt

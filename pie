@@ -118,7 +118,7 @@ net-misc/aria2 +fPIE +pie
 net-ftp/filezilla +fPIE +pie
 net-dns/avahi +fPIE +pie
 dev-lang/orc +fPIE +pie
-sys-devel/llvm +fPIE +pie # ld.lld: error: relocation R_X86_64_PC32 cannot be used
+llvm-core/llvm +fPIE +pie # ld.lld: error: relocation R_X86_64_PC32 cannot be used
 app-pda/libplist +fPIE +pie
 sys-auth/polkit +pie +fPIE
 media-gfx/sane-backends +fPIE +pie
@@ -151,3 +151,4 @@ app-arch/lz4 +fPIE +pie
 dev-util/maturin +fPIE +pie	# lib64/Scrt1.o: in function `_start': 
 				# undefined reference to `main'
 app-admin/syslog-ng +fPIE +pie
+llvm-core/clang +fPIE +pie

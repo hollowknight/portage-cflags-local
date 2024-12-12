@@ -113,7 +113,7 @@ sys-block/parted +Wl,-z,defs
 sys-block/parted:0 +Wl,-z,defs
 sys-devel/gcc +Wl,-z,defs
 sys-devel/gettext +Wl,-z,defs
-sys-devel/llvm +Wl,-z,defs
+llvm-core/llvm +Wl,-z,defs
 sys-fs/dd-rescue +Wl,-z,defs
 sys-fs/ecryptfs-utils +Wl,-z,defs
 sys-fs/f2fs-tools +Wl,-z,defs
@@ -126,8 +126,8 @@ sys-libs/glibc +Wl,-z,defs
 sys-libs/ldb +Wl,-z,defs
 sys-libs/libcap +Wl,-z,defs
 sys-libs/libcap-ng +Wl,-z,defs
-sys-libs/libcxx +Wl,-z,defs
-sys-libs/libcxxabi +Wl,-z,defs
+llvm-runtimes/libcxx +Wl,-z,defs
+llvm-runtimes/libcxxabi +Wl,-z,defs
 sys-libs/libseccomp +Wl,-z,defs
 sys-libs/libselinux +Wl,-z,defs
 sys-libs/libsemanage +Wl,-z,defs
