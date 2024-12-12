@@ -152,3 +152,4 @@ dev-util/maturin +fPIE +pie	# lib64/Scrt1.o: in function `_start':
 				# undefined reference to `main'
 app-admin/syslog-ng +fPIE +pie
 llvm-core/clang +fPIE +pie
+llvm-core/lld +fPIE +pie

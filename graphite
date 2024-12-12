@@ -26,3 +26,5 @@ sys-apps/sandbox +fgraphite* +floop-* +fipa-pta
 #dev-util/lttng-ust +fgraphite* +floop-* +fipa-pta
 llvm-core/clang *FLAGS-="${IPAPTA}" 
 llvm-core/clang +fgraphite* +floop-* +fipa-pta
+llvm-core/llvm +fgraphite* +floop-*
+llvm-core/lld +fgraphite* +floop-*

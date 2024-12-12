@@ -58,3 +58,7 @@ net-print/libppd +flto*
 dev-util/pahole +flto* *FLAGS+=-ffat-lto-objects # requires dynamic R_X86_64_PC32 reloc
 llvm-core/clang *FLAGS-=-flto*
 llvm-runtimes/libcxxabi +flto*
+llvm-core/llvm *FLAGS-=-flto* # Issue #619 temporarily disabled for now due to build errors
+llvm-core/llvm +flto* # PIC
+llvm-runtimes/compiler-rt +flto*
+llvm-core/lld +flto* # emerge =sys-libs/compiler-rt-14.0.6 fails without this
