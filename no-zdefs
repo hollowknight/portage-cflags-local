@@ -158,3 +158,4 @@ media-libs/openexr +Wl,-z,defs
 net-print/libppd +Wl,-z,defs
 net-dns/bind +Wl,-z,defs
 dev-util/lttng-ust +Wl,-z,defs
+media-libs/libcanberra-gtk3 +Wl,-z,defs
