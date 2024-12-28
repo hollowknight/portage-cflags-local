@@ -51,3 +51,4 @@ llvm-runtimes/compiler-rt-sanitizers *FLAGS+=-Wno-unused-command-line-argument #
 llvm-runtimes/compiler-rt +fno-plt # causes presumably runtime segfaults
 llvm-runtimes/compiler-rt-sanitizers +fno-plt # causes presumably runtime segfaults
 llvm-core/lld +fno-plt # causes runtime segfaults
+sys-kernel/gentoo-kernel-bin *FLAGS+='-Wno-calloc-transposed-args -Wno-error=calloc-transposed-args'
