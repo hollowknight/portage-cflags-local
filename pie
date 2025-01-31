@@ -153,3 +153,4 @@ dev-util/maturin +fPIE +pie	# lib64/Scrt1.o: in function `_start':
 app-admin/syslog-ng +fPIE +pie
 llvm-core/clang +fPIE +pie
 llvm-core/lld +fPIE +pie
+app-text/lowdown +fPIE +pie
