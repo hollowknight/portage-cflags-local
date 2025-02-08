@@ -7,3 +7,4 @@ sys-auth/polkit +ffast-math +*math*
 sys-apps/systemd-utils +ffast-math +*math*
 media-libs/rnnoise +ffast-math +*math*
 sys-auth/elogind +ffast-math +*math*
+#dev-qt/qtdeclarative +ffast-math +*math*
