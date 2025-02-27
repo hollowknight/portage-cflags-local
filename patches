@@ -56,3 +56,4 @@ sys-kernel/gentoo-kernel-bin *FLAGS+='-Wno-calloc-transposed-args -Wno-error=cal
 #dev-qt/qt-declarative +Wformat +Werror=format-security +Wno-deprecated +Wno-deprecated-declarations +Wno-coverage-mismatch +Wno-error=coverage-mismatch 
 net-libs/webkit-gtk C*FLAGS+=-fno-permissive
 #dev-lang/spidermonkey:115 C*FLAGS+=-fno-permissive
+sys-kernel/gentoo-kernel-bin C*FLAGS+="-Wno-error=missing-field-initializers -Wno-missing-field-initializers"
