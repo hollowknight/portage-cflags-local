@@ -154,3 +154,4 @@ app-admin/syslog-ng +fPIE +pie
 llvm-core/clang +fPIE +pie
 llvm-core/lld +fPIE +pie
 app-text/lowdown +fPIE +pie
+sys-block/thin-provisioning-tools +fPIE +pie
