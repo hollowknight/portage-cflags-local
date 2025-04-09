@@ -155,3 +155,4 @@ llvm-core/clang +fPIE +pie
 llvm-core/lld +fPIE +pie
 app-text/lowdown +fPIE +pie
 sys-block/thin-provisioning-tools +fPIE +pie
+dev-db/sqlite +fPIE +pie
