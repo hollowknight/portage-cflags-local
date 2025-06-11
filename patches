@@ -54,7 +54,7 @@ llvm-core/lld +fno-plt # causes runtime segfaults
 sys-kernel/gentoo-kernel-bin *FLAGS+='-Wno-calloc-transposed-args -Wno-error=calloc-transposed-args'
 #net-libs/webkit-gtk +Wformat +Werror=format-security
 #dev-qt/qt-declarative +Wformat +Werror=format-security +Wno-deprecated +Wno-deprecated-declarations +Wno-coverage-mismatch +Wno-error=coverage-mismatch 
-net-libs/webkit-gtk C*FLAGS+=-fno-permissive
+#net-libs/webkit-gtk C*FLAGS+=-fno-permissive
 #dev-lang/spidermonkey:115 C*FLAGS+=-fno-permissive
 sys-kernel/gentoo-kernel-bin C*FLAGS+="-Wno-error=missing-field-initializers -Wno-missing-field-initializers"
 dev-db/sqlite C*FLAGS+='-Wno-error=implicit-fallthrough -Wno-implicit-fallthrough -Wno-stringop-overread -Wno-stringop-overread -Wno-error=unused-parameter -Wno-unused-parameter -Wno-error=missing-field-initializers -Wno-missing-field-initializers -Wno-error=sign-compare -Wno-sign-compare -Wno-error=type-limits -Wno-type-limits -Wno-error=maybe-uninitialized -Wno-maybe-uninitialized'

@@ -6,7 +6,6 @@ sys-auth/elogind +flto*
 mail-mta/nullmailer +flto*
 app-admin/setools +flto*
 sys-apps/tcp-wrappers +flto*
-net-libs/webkit-gtk +flto*
 sys-block/open-iscsi +flto*
 app-crypt/staticgpg +flto*
 sys-apps/sandbox +flto*
