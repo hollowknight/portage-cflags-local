@@ -160,3 +160,4 @@ net-dns/bind +Wl,-z,defs
 dev-util/lttng-ust +Wl,-z,defs
 media-libs/libcanberra-gtk3 +Wl,-z,defs
 dev-libs/glib +Wl,-z,defs
+dev-libs/newt +Wl,-z,defs
