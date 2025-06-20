@@ -157,3 +157,4 @@ app-text/lowdown +fPIE +pie
 sys-block/thin-provisioning-tools +fPIE +pie
 dev-db/sqlite +fPIE +pie
 app-misc/tinysparql +fPIE +pie
+app-misc/localsearch +fPIE +pie
