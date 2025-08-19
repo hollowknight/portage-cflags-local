@@ -158,3 +158,4 @@ sys-block/thin-provisioning-tools +fPIE +pie
 dev-db/sqlite +fPIE +pie
 app-misc/tinysparql +fPIE +pie
 app-misc/localsearch +fPIE +pie
+sys-apps/kmod +fPIE +pie
