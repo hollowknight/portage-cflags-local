@@ -159,3 +159,5 @@ dev-db/sqlite +fPIE +pie
 app-misc/tinysparql +fPIE +pie
 app-misc/localsearch +fPIE +pie
 sys-apps/kmod +fPIE +pie
+app-text/gspell +fPIE +pie
+gnome-extra/yelp +fPIE +pie
