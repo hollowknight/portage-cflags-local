@@ -164,3 +164,4 @@ gnome-extra/yelp +fPIE +pie
 gnome-base/gnome-keyring +fPIE +pie
 app-text/libspelling +fPIE +pie
 net-misc/gnome-connections +fPIE +pie
+app-text/papers +fPIE +pie
