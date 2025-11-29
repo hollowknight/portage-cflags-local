@@ -165,3 +165,6 @@ gnome-base/gnome-keyring +fPIE +pie
 app-text/libspelling +fPIE +pie
 net-misc/gnome-connections +fPIE +pie
 app-text/papers +fPIE +pie
+x11-drivers/xf86-video-* +fPIE +pie
+x11-drivers/xf86-input-* +fPIE +pie
+x11-drivers/nvidia-drivers +fPIE +pie

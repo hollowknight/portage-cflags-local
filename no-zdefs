@@ -164,3 +164,4 @@ dev-libs/newt +Wl,-z,defs
 app-misc/localsearch +Wl,-z,defs
 #net-libs/nodejs +Wl,-z,defs
 sys-libs/libnvme +Wl,-z,defs
+dev-libs/imath +Wl,-z,defs
