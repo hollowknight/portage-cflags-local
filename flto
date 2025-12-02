@@ -61,3 +61,4 @@ llvm-core/llvm *FLAGS-=-flto* # Issue #619 temporarily disabled for now due to b
 llvm-core/llvm +flto* # PIC
 llvm-runtimes/compiler-rt +flto*
 llvm-core/lld +flto* # emerge =sys-libs/compiler-rt-14.0.6 fails without this
+#sci-libs/flexiblas +flto*
