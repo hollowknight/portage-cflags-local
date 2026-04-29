@@ -170,3 +170,4 @@ x11-drivers/xf86-input-* +fPIE +pie
 x11-drivers/nvidia-drivers +fPIE +pie
 media-gfx/gimp +fPIE +pie
 app-arch/libdeflate +fPIE +pie
+sys-apps/dtc +fPIE +pie
