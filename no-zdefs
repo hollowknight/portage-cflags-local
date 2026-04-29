@@ -166,3 +166,4 @@ app-misc/localsearch +Wl,-z,defs
 sys-libs/libnvme +Wl,-z,defs
 dev-libs/imath +Wl,-z,defs
 sci-libs/flexiblas +Wl,-z,defs
+sys-apps/dtc +Wl,-z,defs
