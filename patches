@@ -1,25 +1,17 @@
 sys-devel/gcc +fno-delete-null-pointer-checks +Wno-deprecated*
 sys-block/open-iscsi CFLAGS+=-Wno-error=format-truncation
 net-ftp/lftp *FLAGS-=-ffast-math +*math*
-#media-libs/openexr LDFLAGS-=-Wl,--as-needed # NOLDADD=1
-#app-emulation/virtualbox-guest-additions C*FLAGS+=-Wno-incompatible-pointer-types
 dev-libs/re2 +mabm
 app-emulation/virtualbox-guest-additions C*FLAGS+=-Wno-error=implicit-function-declaration
 dev-lang/spidermonkey C*FLAGS+=-fno-strict-aliasing
-#=sys-devel/gcc-9.2.0-r2 C*FLAGS+=-fprofile-correction
 dev-lang/spidermonkey +Wl,-fuse-ld=gold +fuse-ld=gold
 sys-devel/gdb *FLAGS-=-ftracer # "-ftracer" and "-O3" gives Error: symbol 'start_amd64_void_call_2_a' is already defined
 media-libs/libvpx +D_FORTIFY_SOURCE*
 llvm-runtimes/llvm-libunwind  C*FLAGS+=-Wno-newline-eof
-#app-i18n/im-chooser +Wl,--as-needed
-#sys-devel/gcc *FLAGS-=-Werror=format-security
 app-text/texlive-core 'export ax_cv_c_float_words_bigendian=no'
 x11-libs/libgxim *FLAGS-="${FORMATSECURITY}"
 sys-kernel/gentoo-kernel-bin *FLAGS+='-Wno-sign-compare -Wno-error=sign-compare -Wno-unused-parameter -Wno-error=unused-parameter -Wno-implicit-fallthrough -Wno-error=implicit-fallthrough'
 app-i18n/ibus-unikey *FLAGS+='-Wno-unused-parameter -Wno-error=unused-parameter -Wno-missing-field-initializers -Wno-error=missing-field-initializers -Wno-cast-function-type -Wno-error=cast-function-type'
-#app-admin/rsyslog +Wl,--as-needed +Wl,--no-undefined
-# sys-apps/busybox C*FLAGS/=/-O?/-Oz
-# dev-util/lttng-ust LDFLAGS-=-Wl,--as-needed +Wl,--no-undefined NOLDADD=1 
 dev-cpp/abseil-cpp +fno-delete-null-pointer-checks
 dev-libs/protobuf +fno-delete-null-pointer-checks *FLAGS+='-Wno-unused-parameter -Wno-attributes -Wno-sign-compare -Wno-missing-field-initializers -Wno-implicit-fallthrough'
 dev-libs/protobuf-c +fno-delete-null-pointer-checks *FLAGS+='-Wno-unused-parameter -Wno-attributes -Wno-sign-compare -Wno-missing-field-initializers -Wno-implicit-fallthrough'
@@ -52,12 +44,8 @@ llvm-runtimes/compiler-rt +fno-plt # causes presumably runtime segfaults
 llvm-runtimes/compiler-rt-sanitizers +fno-plt # causes presumably runtime segfaults
 llvm-core/lld +fno-plt # causes runtime segfaults
 sys-kernel/gentoo-kernel-bin *FLAGS+='-Wno-calloc-transposed-args -Wno-error=calloc-transposed-args'
-#net-libs/webkit-gtk +Wformat +Werror=format-security
-#dev-qt/qt-declarative +Wformat +Werror=format-security +Wno-deprecated +Wno-deprecated-declarations +Wno-coverage-mismatch +Wno-error=coverage-mismatch 
-#net-libs/webkit-gtk C*FLAGS+=-fno-permissive
-#dev-lang/spidermonkey:115 C*FLAGS+=-fno-permissive
 sys-kernel/gentoo-kernel-bin C*FLAGS+="-Wno-error=missing-field-initializers -Wno-missing-field-initializers"
 dev-db/sqlite C*FLAGS+='-Wno-error=implicit-fallthrough -Wno-implicit-fallthrough -Wno-stringop-overread -Wno-stringop-overread -Wno-error=unused-parameter -Wno-unused-parameter -Wno-error=missing-field-initializers -Wno-missing-field-initializers -Wno-error=sign-compare -Wno-sign-compare -Wno-error=type-limits -Wno-type-limits -Wno-error=maybe-uninitialized -Wno-maybe-uninitialized'
-#net-libs/nodejs C*FLAGS+="-std=c++23"
 gnome-base/gnome-control-center C*FLAGS+='-Wno-error=unused-parameter -Wno-unused-parameter -Wno-error=sign-compare -Wno-sign-compare -Wno-error=incompatible-pointer-types -Wno-incompatible-pointer-types'
 sys-apps/kmod C*FLAGS+='-Wno-error=maybe-uninitialized -Wno-maybe-uninitialized'
+sys-apps/dtc C*FLAGS+='-Wno-error=unused-parameter -Wno-unused-parameter -Wno-error=missing-field-initializers -Wno-missing-field-initializers'
