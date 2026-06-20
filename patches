@@ -50,3 +50,4 @@ gnome-base/gnome-control-center C*FLAGS+='-Wno-error=unused-parameter -Wno-unuse
 sys-apps/kmod C*FLAGS+='-Wno-error=maybe-uninitialized -Wno-maybe-uninitialized'
 sys-apps/dtc *FLAGS+='-Wno-error=unused-parameter -Wno-unused-parameter -Wno-error=missing-field-initializers -Wno-missing-field-initializers'
 
+x11-drivers/nvidia-drivers C*FLAGS+=-mfpmath=sse +mfpmath=*
