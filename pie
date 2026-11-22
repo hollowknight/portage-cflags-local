@@ -172,3 +172,4 @@ media-gfx/gimp +fPIE +pie
 app-arch/libdeflate +fPIE +pie
 sys-apps/dtc +fPIE +pie
 media-sound/liblc3 +fPIE +pie
+llvm-core/mlir +fPIE +pie
