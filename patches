@@ -49,5 +49,5 @@ dev-db/sqlite C*FLAGS+='-Wno-error=implicit-fallthrough -Wno-implicit-fallthroug
 gnome-base/gnome-control-center C*FLAGS+='-Wno-error=unused-parameter -Wno-unused-parameter -Wno-error=sign-compare -Wno-sign-compare -Wno-error=incompatible-pointer-types -Wno-incompatible-pointer-types'
 sys-apps/kmod C*FLAGS+='-Wno-error=maybe-uninitialized -Wno-maybe-uninitialized'
 sys-apps/dtc *FLAGS+='-Wno-error=unused-parameter -Wno-unused-parameter -Wno-error=missing-field-initializers -Wno-missing-field-initializers'
-
 x11-drivers/nvidia-drivers C*FLAGS+=-mfpmath=sse +mfpmath=*
+llvm-core/mlir C*FLAGS+='-Wno-error=maybe-uninitialized -Wno-maybe-uninitialized'
