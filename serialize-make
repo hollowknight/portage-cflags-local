@@ -1,2 +1,1 @@
-llvm-core/mlir MAKEOPTS-=-j* MAKEOPTS+=-j1
 app-crypt/efitools MAKEOPTS-=-j* MAKEOPTS+=-j1
